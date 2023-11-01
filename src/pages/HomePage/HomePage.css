@@ -9,7 +9,8 @@
   
   .header {
     background-color: #81A4CD;
-    min-height: 100vh;
+    flex: 1;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
