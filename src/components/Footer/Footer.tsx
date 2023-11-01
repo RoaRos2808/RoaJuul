@@ -7,13 +7,13 @@ const Footer: React.FC = () => {
       <div className="instagram-logo">
         <img src="/images/Instagram_logo.png" alt="Instagram Logo" />
       </div>
-      <a href="https://www.instagram.com/roaros/" target="_blank" rel="noopener noreferrer">
+      <a className='insta-text' href="https://www.instagram.com/roaros/" target="_blank" rel="noopener noreferrer">
         roaros
       </a>
       <div className="instagram-logo">
         <img src="/images/Instagram_logo.png" alt="Instagram Logo" />
       </div>
-      <a href="https://www.instagram.com/julieboschh/" target="_blank" rel="noopener noreferrer">
+      <a className='insta-text' href="https://www.instagram.com/julieboschh/" target="_blank" rel="noopener noreferrer">
         julieboschh
       </a>
     </footer>

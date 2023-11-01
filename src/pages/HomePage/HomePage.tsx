@@ -10,6 +10,7 @@ import Footer from '../../components/Footer/Footer';
 const HomePage: React.FC = () => {
   return (
     <div className="HomePage">
+      <div className="background">
         <header className="header">
             <div>
                 <h1>TEST</h1>
@@ -29,6 +30,7 @@ const HomePage: React.FC = () => {
             </a> */}
         </header>
         <Footer />
+      </div>
     </div>
   );
 }

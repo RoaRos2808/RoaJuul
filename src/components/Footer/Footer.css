@@ -1,5 +1,5 @@
 .footer {
-    background-color: #81A4CD;
+    background-color: #81A4CD50;
     color: white;
     text-align: right;
     padding: 20px;
@@ -9,14 +9,15 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    /* opacity: 40%; */
   }
-  
+
   .instagram-logo img {
     width: 20px; /* Adjust the width of the Instagram logo */
     height: 20px; /* Adjust the height of the Instagram logo */
   }
 
-  a {
+  .insta-text {
     font-family: 'Jost', serif;
     margin-left: 5px;
     margin-right: 10px;
