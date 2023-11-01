@@ -1,6 +1,7 @@
 import React from 'react';
 import './HomePage.css';
 import ExampleComponent from '../../components/ExampleComponent/ExampleComponent';
+import Footer from '../../components/Footer/Footer';
 
 // interface HomePageProps {
 //     path: string;
@@ -11,7 +12,7 @@ const HomePage: React.FC = () => {
     <div className="HomePage">
         <header className="header">
             <div>
-                <h1>RoaJuul</h1>
+                <h1>TEST</h1>
             </div>
             {/* <ExampleComponent name="hello"/> */}
             {/* <img src={logo} className="App-logo" />
@@ -27,6 +28,7 @@ const HomePage: React.FC = () => {
             Learn React
             </a> */}
         </header>
+        <Footer />
     </div>
   );
 }
