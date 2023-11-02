@@ -8,7 +8,7 @@
     z-index: 1000; /* Adjust the z-index as needed */
 }
 
-.navbar-container {
+.navbar_container {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
@@ -16,7 +16,7 @@
     padding: 0 20px;
 }
 
-.navbar-logo {
+.navbar_logo {
     font-family: 'Raleway', serif;
     font-size: 1.5rem;
     text-decoration: none;

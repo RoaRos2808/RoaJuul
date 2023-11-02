@@ -1,5 +1,5 @@
 import React from 'react';
-import './TimelinePage.css';
+import styles from './TimelinePage.module.css';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import ConnectingAirportsIcon from '@mui/icons-material/ConnectingAirports';
@@ -11,8 +11,8 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 const TimelinePage: React.FC = () => {
   return (
-    <div className="background-t">
-      <div className="timeline">
+    <div className={styles.background_t}>
+      <div className={styles.timeline}>
         <VerticalTimeline animate={false}>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"

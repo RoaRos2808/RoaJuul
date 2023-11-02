@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
-import './Footer.css'; // Import your CSS file for styling
+import styles  from './Footer.module.css'; // Import your CSS file for styling
 import { BottomNavigation, BottomNavigationAction } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 import TimelineIcon from '@mui/icons-material/Timeline';
+import HandshakeIcon from '@mui/icons-material/Handshake';
 import { useNavigate } from 'react-router-dom';
 
 const Footer: React.FC = () => {
@@ -15,7 +16,7 @@ const Footer: React.FC = () => {
   };
 
   return (
-    <footer className="footer">
+    <footer className={styles.footer}>
       <BottomNavigation
           showLabels
           value={value}
@@ -23,6 +24,7 @@ const Footer: React.FC = () => {
         >
           <BottomNavigationAction label="Home" value='/' icon={<HomeIcon />} />
           <BottomNavigationAction label="Timeline" value='/timeline' icon={<TimelineIcon />} />
+          <BottomNavigationAction label="Extra" value='/extra' icon={<HandshakeIcon />} />
         </BottomNavigation>
       {/* <div className="instagram-logo">
         <img src="/images/Instagram_logo.png" alt="Instagram Logo" />

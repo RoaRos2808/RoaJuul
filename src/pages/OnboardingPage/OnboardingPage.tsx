@@ -1,5 +1,5 @@
 import React from 'react';
-import './OnboardingPage.css';
+import styles from './OnboardingPage.module.css';
 
 // interface HomePageProps {
 //     path: string;
@@ -16,16 +16,16 @@ const OnboardingPage: React.FC<Props> = ({onChildEvent}) => {
   };
 
   return (
-    <div className="onboarding">
-      <div className="background">
-        <div className="body">
-          <div className="top">
+    <div className={styles.onboarding}>
+      <div className={styles.background}>
+        <div className={styles.body}>
+          <div className={styles.top}>
             <div>
                 <h1>RoaJuul</h1>
             </div>
-            <img src={"/images/20230408_232501.jpg"} className='front-image' />
+            <img src={"/images/20230408_232501.jpg"} className={styles.front_image} />
         </div>
-        <button onClick={handleClick} className="romantic-button">Ons eerste jaar!</button>
+        <button onClick={handleClick} className={styles.romantic_button}>Ons eerste jaar!</button>
         </div>
       </div>
     </div>

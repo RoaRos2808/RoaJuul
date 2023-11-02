@@ -35,14 +35,14 @@
         justify-content: center;
       }
 
-      .front-image {
+      .front_image {
         max-width: 50%;
         height: auto;
         border-radius: 10px;
         box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
       }
 
-      .romantic-button {
+      .romantic_button {
         font-family: 'Jost';
         background-color: #ffcccc; /* Soft pink background */
         color: #8b0000; /* Deep red text color */
@@ -54,7 +54,7 @@
         transition: background-color 0.3s ease, transform 0.3s ease;
       }
 
-      .romantic-button:hover {
+      .romantic_button:hover {
         background-color: #ffb6c1; /* Lighter pink on hover */
         transform: scale(1.05); /* Slight scale effect on hover */
       }
