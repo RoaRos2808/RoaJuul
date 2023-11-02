@@ -7,13 +7,12 @@
     font-size: 75px;
   }
 
-  .background {
+  .background-t {
     background: url("/public/images/20230408_232501.jpg") center/cover no-repeat; 
   }
   
   .header {
     /* background-color: #81A4CD; */
-    backdrop-filter: blur(5px); /* Apply blur effect */
     flex: 1;
     height: 100vh;
     display: flex;

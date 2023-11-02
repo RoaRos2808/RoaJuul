@@ -1,0 +1,9 @@
+.background-t {
+    background: url("/public/images/20230408_232501.jpg") no-repeat fixed center/cover;
+    
+    .timeline {
+        padding-top: 50px;
+        height: 100vh;
+    }
+}
+

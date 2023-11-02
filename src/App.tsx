@@ -1,19 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Route, Router, Routes } from 'react-router-dom';
-import ExampleComponent from './components/ExampleComponent/ExampleComponent';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
-import NavigationMenu from './components/NavigationMenu/NavigationMenu';
+import TimelinePage from './pages/TimelinePage/TimelinePage';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 const App: React.FC = () => {
   return (
     <BrowserRouter>
       <div className="App">
-        <NavigationMenu />
+        <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/timeline" element={<TimelinePage />}></Route>
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );
