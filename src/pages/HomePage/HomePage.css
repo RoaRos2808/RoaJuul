@@ -7,19 +7,21 @@
     font-size: 75px;
   }
 
-  .background-t {
-    background: url("/public/images/20230408_232501.jpg") center/cover no-repeat; 
-  }
-  
-  .header {
-    /* background-color: #81A4CD; */
-    flex: 1;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
+  .background {
+    background: url("/public/images/bg_bggenerator_com.png") no-repeat fixed center/cover; 
+
+    .body {
+      /* background-color: #81A4CD; */
+      backdrop-filter: blur(5px); /* Apply blur effect */
+      flex: 1;
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
   }
   
   

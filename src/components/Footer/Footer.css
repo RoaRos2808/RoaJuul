@@ -1,7 +1,6 @@
-.footer {
+/* .footer {
     background-color: #81A4CD50;
     color: white;
-    text-align: right;
     padding: 20px;
     position: fixed;
     bottom: 0;
@@ -9,6 +8,15 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+  } */
+
+  .footer {
+    background-color: #81A4CD50;
+    color: white;
+    /* text-align: right; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 
   .instagram-logo img {

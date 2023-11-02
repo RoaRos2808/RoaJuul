@@ -13,7 +13,7 @@ const TimelinePage: React.FC = () => {
   return (
     <div className="background-t">
       <div className="timeline">
-        <VerticalTimeline>
+        <VerticalTimeline animate={false}>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}

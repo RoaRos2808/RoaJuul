@@ -1,8 +1,5 @@
 import React from 'react';
 import './HomePage.css';
-import ExampleComponent from '../../components/ExampleComponent/ExampleComponent';
-import Footer from '../../components/Footer/Footer';
-import Header from '../../components/Header/Header';
 
 // interface HomePageProps {
 //     path: string;
@@ -12,7 +9,7 @@ const HomePage: React.FC = () => {
   return (
     <div className="HomePage">
       <div className="background">
-        <div className="header">
+        <div className="body">
           <div>
             <h1>TEST</h1>
           </div>

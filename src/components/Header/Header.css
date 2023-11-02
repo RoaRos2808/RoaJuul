@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #3AA346;
+    background-color: #3AA34650;
     color: white;
     padding: 10px 0;
     position: fixed;
@@ -20,6 +20,6 @@
     font-family: 'Raleway', serif;
     font-size: 1.5rem;
     text-decoration: none;
-    color: white;
+    color: red;
     margin: 0 auto;
 }
