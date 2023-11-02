@@ -4,7 +4,7 @@
     .timeline {
         backdrop-filter: blur(5px); /* Apply blur effect */
         padding-top: 56px;
-        height: 100vh;
+        height: 100%;
         font-family: 'Jost', serif;
     }
 }
