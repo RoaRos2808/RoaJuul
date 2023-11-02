@@ -11,21 +11,9 @@ const HomePage: React.FC = () => {
       <div className="background">
         <div className="body">
           <div>
-            <h1>TEST</h1>
+            <h1>RoaJuul</h1>
           </div>
-          {/* <ExampleComponent name="hello"/> */}
-          {/* <img src={logo} className="App-logo" />
-          <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-          </p>
-          <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-          >
-          Learn React
-          </a> */}
+          <img src={"/images/20230408_232501.jpg"} className='front-image' />
         </div>
       </div>
     </div>
