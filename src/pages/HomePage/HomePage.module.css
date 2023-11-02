@@ -9,7 +9,7 @@
   }
 
   .background {
-    background: url("/public/images/bg_bggenerator_com.png") no-repeat fixed center/cover; 
+    background: url("/public/images/bg_bggenerator_com4.png") no-repeat fixed center/cover; 
 
     .body {
       /* background-color: #81A4CD; */
@@ -21,14 +21,16 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      color: white;
+      color: #ffcccc;
       padding-bottom: 200px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
     }
 
     .front_image {
       max-width: 50%;
       height: auto;
       border-radius: 10px;
+      box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
     }
   }
   
