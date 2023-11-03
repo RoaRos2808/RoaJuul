@@ -252,7 +252,7 @@ const TimelinePage: React.FC = () => {
               over van alles en nog wat, en jij zelfs een idee hebben om de Tesla te pakken en 
               even op en neer naar Groningen te gaan midden in de nacht. En dat alles nadat we maar 
               een keer op date zijn geweest hahah. Maar dit alles voelde al zo veel meer dan gewoon 
-              kletsen. Deze nacht zijn we opgebleven to kwart over 4 's nachts, en dat op een dag 
+              kletsen. Deze nacht zijn we opgebleven tot kwart over 4 's nachts, en dat op een dag 
               dat ik gewoon moest werken. Maar ook dit was het allemaal waard. Nu teruglezend, ook de drie nachten 
               daarna zijn we niet eerder gaan slapen dan 2 uur 's nachts :)
             </p>
@@ -295,16 +295,28 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#ff3526', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #ff3526' }}
             date="16 januari 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            iconStyle={{ background: '#ff3526', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Valentijnsdag?</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              De dag na de hele gezellige tweede date zat ik gewoon weer lekker op werk en 
+              was ik een beetje aan het niksen, toen ik me bedacht dat er een bepaalde dag 
+              aan zat te komen. Ik vond het zo goed gaan tussen ons en ik begon je steeds
+              leuker en leuker te vinden, waardoor ik me bedacht jou het volgende te sturen:
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/images/Screenshot_20231103-232744_WhatsApp.jpg"} />
+            </div>
+            <p>
+              Achteraf kreeg ik te horen dat je op dat precieze moment samen met Anne was, 
+              die toevallig op dat moment jouw telefoon vast had. Ze zei dat je echt even mijn 
+              berichtje moest lezen, omdat het toch niet even een normaal appje was van mij hahah.
+              Ik vind het nog steeds heel grappig om dit voor me te zien en hier aan terug te denken :)
             </p>
           </VerticalTimelineElement>
 
@@ -316,8 +328,8 @@ const TimelinePage: React.FC = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">De derde date</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
               ondertekst
             </p>
