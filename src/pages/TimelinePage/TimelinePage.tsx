@@ -4,6 +4,13 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import ConnectingAirportsIcon from '@mui/icons-material/ConnectingAirports';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import NightlifeIcon from '@mui/icons-material/Nightlife';
+import MarkChatUnreadIcon from '@mui/icons-material/MarkChatUnread';
+import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
+import CoffeeIcon from '@mui/icons-material/Coffee';
+import MessageIcon from '@mui/icons-material/Message';
+import MessageOutlinedIcon from '@mui/icons-material/MessageOutlined';
+import CoffeeOutlinedIcon from '@mui/icons-material/CoffeeOutlined';
 
 // interface HomePageProps {
 //     path: string;
@@ -47,7 +54,7 @@ const TimelinePage: React.FC = () => {
             contentArrowStyle={{ borderRight: '7px solid  #ff9d73' }}
             date="27 november 2022"
             iconStyle={{ background: '#ff9d73', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            icon={<NightlifeIcon />}
           >
             <h3 className="vertical-timeline-element-title">Avondje stappen!</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">Sofia, Bulgarije</h4> */}
@@ -89,7 +96,7 @@ const TimelinePage: React.FC = () => {
             contentArrowStyle={{ borderRight: '7px solid  #fa7046' }}
             date="28 november 2022"
             iconStyle={{ background: '#fa7046', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            icon={<NightlifeIcon />}
           >
             <h3 className="vertical-timeline-element-title">Tweede avondje stappen!</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
@@ -123,7 +130,7 @@ const TimelinePage: React.FC = () => {
             contentArrowStyle={{ borderRight: '7px solid  #f07efc' }}
             date="1 december 2022"
             iconStyle={{ background: '#f07efc', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            icon={<MarkChatUnreadIcon />}
           >
             <h3 className="vertical-timeline-element-title">Het moedige appje</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
@@ -148,76 +155,142 @@ const TimelinePage: React.FC = () => {
             contentArrowStyle={{ borderRight: '7px solid  #14c44f' }}
             date="12 december 2022"
             iconStyle={{ background: '#14c44f', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            icon={<QuestionMarkIcon />}
           >
             <h3 className="vertical-timeline-element-title">Date?</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              De dagen daarna hadden we elkaar af en toe wat berichtjes gestuurd terwijl 
+              jij van je laatste dagen van de reis aan het genieten was. Na een aantal dagen 
+              niet geappt te hebben kwam ik compleet toevallig David tegen, en dit moest ik
+              natuurlijk even naar jou sturen. We appten weer een dagje en door al deze gesprekjes 
+              leek het me erg leuk om je weer eens te zien. Na enige minuutjes bedenken hoe ik deze
+              vraag nou moest formuleren, kwam ik uit op het volgende berichtje:
             </p>
             <div className={styles.one_image}>
               <img src={"/images/Screenshot_20231103-013456_WhatsApp.jpg"} />
+            </div>
+            <p>
+              Het was nog even bepalen wanneer wij beide konden, wie waarheen ging en hoe we
+              het doen met de hoge treinkosten, maar we hadden uiteindelijk een dag gevonden:
+              maandag 19 december :)
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#34bdf7', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #34bdf7' }}
+            date="19 december 2022"
+            iconStyle={{ background: '#34bdf7', color: '#fff' }}
+            icon={<CoffeeIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">De eerste date</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
+            <p>
+              Rond 13:00 stond ik klaar bij perron 7 om jou op te halen van de trein, toen nog niet 
+              wetende dat jij echt zenuwachtig was voor deze dag :). We geven elkaar een knuffel
+              en lopen naar het News Café om te lunchen en even lekker bij te praten. Ik weet nog exact waar we 
+              zaten en ik vond het oprecht direct al fijn gezellig kletsen. Na een uurtje lunchen lopen we 
+              door naar het Forum, waar wij een mooi uitzicht over de stad hebben en waar ik wel wat 
+              bij kon vertellen. We wandelen vervolgens een rondje door de stad via het Noorderplantsoen 
+              en doen weer een koffietje/chocolademelkie bij Doppio. Alles voelde zo normaal en ik vond 
+              het fijn om te zien dat jij het ook echt naar je zin had. Ik herinner me nog dat ik na 
+              dit drankje echt niet meer wist waar we nog heen konden lopen, maar we deden maar nog eens 
+              een rondje hahah. Ik wist ook niet zeker hoe laat jij de trein wilde pakken, maar we besloten 
+              toch uit eten te gaan bij Happy Italy. We hebben nog de slappe lach gehad om mijn verhaal 
+              over aardappels gooien, en alles was helemaal gezellieeeee :). Uiteindelijk hebben we nog
+              een rondje gelopen (verrassend), en heb jij de laatste trein terug genomen richting Bunnik. 
+              Deze keuze was misschien niet de beste, want je bleek uiteindelijk vertraging te hebben, 
+              waardoor je je overstap miste en je moeder je op moest halen (sorry Maike :P). Maar ik hoop 
+              dat het alles waard was :)
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/images/Schermafbeelding 2023-11-03 213448.png"} />
             </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="19 december 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
-            <p>
-              ondertekst
-            </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#8578ff', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #8578ff' }}
             date="2 januari 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            iconStyle={{ background: '#8578ff', color: '#fff' }}
+            icon={<MessageIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Heeel lang appen</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+               Helaas door Kerst, mijn werk en jouw trip naar Parijs was er geen moment om
+               snel een tweede date te plannen. We kwamen uiteindelijk uit op 15 januari,
+               bijna een maand later dan de eerste date, wat betekende dat we elkaar voornamelijk
+               spraken via WhatsApp. Vlak na Nieuwjaar kwam er een avond waar we beide in bed lagen,
+               en de tijd lekker vergaten. Praten over het weekend in Sofia, wat inmiddels al meer dan
+               een maand geleden was en de wekker van Kasper die steeds maar af ging om stipt 2 uur 's nachts.
+               Dit was het eerste nachtje waar we echt lang met elkaar kletsten zonder enige tijd tussen 
+               de appjes :). Het werd uiteindelijk 10 voor 3, wat voor jouw doen echt een prestatie is. 
+               Nu ik me dit achteraf zo bedenk, ik voel me vereerd dat je het zo leuk vond om op te blijven :).
+               Ik zie nu ook dat we de volgende nacht weer tot 2 uur geappt hadden, en er ontstond zo 
+               inmiddels al echt wel wat tussen ons :)
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#ff3860', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #ff3860' }}
             date="11 januari 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            iconStyle={{ background: '#ff3860', color: '#fff' }}
+            icon={<MessageOutlinedIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Alleen maar appen</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              In de dagen van 3 t/m 11 januari hebben we elke dag hele lange gesprekken gehad.
+              Bijna elke avond in deze week sliepen we pas na 12 uur, maar de nacht van 11 januari 
+              blijft wel de langste nacht die wij samen op WhatsApp gespendeerd hebben. Lekker praten 
+              over van alles en nog wat, en jij zelfs een idee hebben om de Tesla te pakken en 
+              even op en neer naar Groningen te gaan midden in de nacht. En dat alles nadat we maar 
+              een keer op date zijn geweest hahah. Maar dit alles voelde al zo veel meer dan gewoon 
+              kletsen. Deze nacht zijn we opgebleven to kwart over 4 's nachts, en dat op een dag 
+              dat ik gewoon moest werken. Maar ook dit was het allemaal waard. Nu teruglezend, ook de drie nachten 
+              daarna zijn we niet eerder gaan slapen dan 2 uur 's nachts :)
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#ff8138', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #ff8138' }}
             date="15 januari 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            iconStyle={{ background: '#ff8138', color: '#fff' }}
+            icon={<CoffeeOutlinedIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">De tweede date</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Deze keer was het mijn beurt om de trein te nemen, waar jij mij rond 12:15 
+              stond op te wachten aan de centrum kant van het mooie Utrecht. Het mocht ons 
+              geluk natuurlijk wezen dat het regende, wat in Groningen ook het geval was, maar 
+              dat mocht de pret zeker niet derven. Samen gingen we weer lunchen, bij een gezellig 
+              plekje genaamd de KEEK lunchroom. Daarna stond ons een dag te wachten van weer lekker 
+              veel rondjes lopen en heel veel kletsen. Jij was deze keer de tourguide, en je hebt 
+              me heel goed alle interessante plekjes in Utrecht laten zien :). We hebben Belle ook
+              nog even opgebeld, om nou even een onenigheid recht te stellen (en natuurlijk had jij 
+              gelijk hahah). Halverwege de dag hebben we ergens rust genomen op een bankje, waar we 
+              gezellig met zijn tweeën gezeten hebben; iets dat we sinds Sofia niet meer gedaan hadden.
+              Eenmaal weer opgestaan, gaan we hand in hand verder (wat ik al een hele spannende move 
+              vond hahah). We hebben nog een drankje gedaan bij de PK & kitchen en zijn daarna 
+              doorgelopen naar Spaghettaria Wittevrouwensingel, waar we heeerlijke ravioli gegeten 
+              hebben. Hierna hebben we nog 2 uur de stad doorgelopen, om uiteindelijk nog een bankje 
+              te bemachtigen vlakbij het station. Lekker dicht tegen elkaar zitten, en na een aantal relatief 
+              hoge hartkloppingen toch de moed gekregen om voor onze eerste nuchtere zoen te gaan :)).
+              Het was toen echt tijd om te gaan, dus ik ben vervolgens met een grote glimlach de trein
+              ingestapt om weer richting Groningen te gaann.
             </p>
+            <div className={styles.one_image}>
+              <img src={"/images/Schermafbeelding 2023-11-03 224303.png"} />
+            </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
