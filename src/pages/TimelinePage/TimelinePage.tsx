@@ -119,32 +119,45 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#f07efc', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #f07efc' }}
             date="1 december 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            iconStyle={{ background: '#f07efc', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Het moedige appje</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Na het weekend hadden we op de dinsdag nog even geappt, waarna het gesprek voorbij was 
+              en er de drie dagen daarna niks gestuurd werd. Totdat ik ineens een appje ontving op 
+              de vrijdagavond:
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/images/Screenshot_20231103-012103_WhatsApp.jpg"} />
+            </div>
+            <p>
+              Ik vond het leuk om weer van je te horen, en was erg benieuwd naar de rest 
+              van je reis. Het was een relatief kort gesprek, maar ik vond het leuk dat 
+              we überhaupt weer een gesprek hadden :)
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#14c44f', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #14c44f' }}
             date="12 december 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            iconStyle={{ background: '#14c44f', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Date?</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
               ondertekst
             </p>
+            <div className={styles.one_image}>
+              <img src={"/images/Screenshot_20231103-013456_WhatsApp.jpg"} />
+            </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
