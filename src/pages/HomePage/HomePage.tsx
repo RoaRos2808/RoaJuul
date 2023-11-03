@@ -22,7 +22,7 @@ const HomePage: React.FC = () => {
                 In de timeline heb ik al onze leuke datums op chronologische volgorde gezet, met 
                 kleine verhaaltjes vanuit mijn perspectief :)
               </p>
-              <img src={"/images/20230812_142406.jpg"} className={styles.image} />
+              <img src={"/RoaJuul/images/20230812_142406.jpg"} className={styles.image} />
             </div>
           </Fade>
           {/* <img src={"/images/bg_bggenerator_com4.png"} className={styles.front_image} /> */}
