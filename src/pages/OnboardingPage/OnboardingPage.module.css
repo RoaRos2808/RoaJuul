@@ -38,8 +38,11 @@
       .front_image {
         max-width: 50%;
         height:50%;
-        border-radius: 10px;
-        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+
+        ._img {
+          border-radius: 10px;
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+        }
       }
 
       .romantic_button {

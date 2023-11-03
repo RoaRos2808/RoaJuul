@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import styles from './OnboardingPage.module.css';
+import { Fade } from 'react-awesome-reveal';
 
 // interface HomePageProps {
 //     path: string;
@@ -34,19 +35,25 @@ const OnboardingPage: React.FC<Props> = ({onChildEvent}) => {
         <div className={styles.body}>
           <div className={styles.top}>
             <div>
+              <Fade delay={500} duration={2000}>
                 <h1>RoaJuul</h1>
+              </Fade>
             </div>
-            <img src={"/images/20230408_232501.jpg"} className={styles.front_image} />
-        </div>
-        <input
-          type="text"
-          id="textInput"
-          value={inputValue}
-          onChange={handleInputChange}
-          style={{textAlign: 'center'}}
-          className={styles.romantic_input}
-          placeholder="Ons eerste jaar!"
-        />
+            <Fade delay={1500} duration={2000} className={styles.front_image}>
+              <img src={"/images/20230408_232501.jpg"} className={styles._img} />
+            </Fade>
+          </div>
+          <Fade delay={3000} duration={500}>
+            <input
+              type="text"
+              id="textInput"
+              value={inputValue}
+              onChange={handleInputChange}
+              style={{textAlign: 'center'}}
+              className={styles.romantic_input}
+              placeholder="Ons eerste jaar!"
+            />
+          </Fade>
         {/* <button onClick={handleClick} className={styles.romantic_button}>Ons eerste jaar!</button> */}
         </div>
       </div>
