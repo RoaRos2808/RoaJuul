@@ -13,7 +13,15 @@ const HomePage: React.FC = () => {
           <div>
             <h1>RoaJuul</h1>
           </div>
-          <img src={"/images/20230408_232501.jpg"} className={styles.front_image} />
+          <div className={styles.front_image}>
+            <p>
+              Het is inmiddels een jaar geleden dat wij elkaar ontmoet hebben, en dit
+              bracht mij op het idee om een website te maken met onze leukste herinneringen!
+              In de timeline heb ik al onze leuke datums op chronologische volgorde gezet, met 
+              kleine verhaaltjes vanuit mijn perspectief :)
+            </p>
+          </div>
+          {/* <img src={"/images/bg_bggenerator_com4.png"} className={styles.front_image} /> */}
         </div>
       </div>
     </div>

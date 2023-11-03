@@ -27,10 +27,13 @@
     }
 
     .front_image {
-      max-width: 50%;
+      background: url("/public/images/bg_bggenerator_com2.png") no-repeat fixed center/cover; 
+      max-width: 80%;
       height: 50%;
       border-radius: 10px;
       box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      color: #ffdfdf;
     }
   }
   
