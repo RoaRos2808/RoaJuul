@@ -2,7 +2,7 @@
   "name": "roajuul-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://RoaRos2808.github.io/RoaJuul",
+  "homepage": "https://roaros2808.github.io/RoaJuul",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",

@@ -40,7 +40,7 @@ const OnboardingPage: React.FC<Props> = ({onChildEvent}) => {
               </Fade>
             </div>
             <Fade delay={1500} duration={2000} className={styles.front_image}>
-              <img src={"/images/20230408_232501.jpg"} className={styles._img} />
+              <img src={"/RoaJuul/images/20230408_232501.jpg"} className={styles._img} />
             </Fade>
           </div>
           <Fade delay={3000} duration={500}>

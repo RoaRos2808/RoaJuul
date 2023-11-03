@@ -25,7 +25,8 @@ const App: React.FC = () => {
             <Header />
             <Routes>
               <Route path="/" element={<HomePage />}></Route>
-              <Route path="/timeline" element={<TimelinePage />}></Route>
+              <Route path="/RoaJuul" element={<HomePage />}></Route>
+              <Route path="/RoaJuul/timeline" element={<TimelinePage />}></Route>
             </Routes>
             <Footer />
           </div>

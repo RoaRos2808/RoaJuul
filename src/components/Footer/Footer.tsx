@@ -22,8 +22,8 @@ const Footer: React.FC = () => {
           value={value}
           onChange={handleChange}
         >
-          <BottomNavigationAction label="Home" value='/' icon={<HomeIcon />} />
-          <BottomNavigationAction label="Timeline" value='/timeline' icon={<TimelineIcon />} />
+          <BottomNavigationAction label="Home" value='/RoaJuul' icon={<HomeIcon />} />
+          <BottomNavigationAction label="Timeline" value='/RoaJuul/timeline' icon={<TimelineIcon />} />
           <BottomNavigationAction label="Extra" value='/extra' icon={<HandshakeIcon />} />
         </BottomNavigation>
       {/* <div className="instagram-logo">

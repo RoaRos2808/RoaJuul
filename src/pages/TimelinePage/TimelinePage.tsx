@@ -44,7 +44,7 @@ const TimelinePage: React.FC = () => {
               de bar, waar de rest al lekker aan het dansen is.
             </p>
             <div className={styles.one_image}>
-              <img src={"/images/20221126_194834.jpg"} />
+              <img src={"/RoaJuul/images/20221126_194834.jpg"} />
             </div>
           </VerticalTimelineElement>
 
@@ -76,7 +76,7 @@ const TimelinePage: React.FC = () => {
               met veel plezier las :).
             </p>
             <div className={styles.one_image}>
-              <img src={"/images/Screenshot_20230812-120422_BeReal.jpg"} />
+              <img src={"/RoaJuul/images/Screenshot_20230812-120422_BeReal.jpg"} />
             </div>
             <p>
               De volgende dag (zelfde dag :P) ben ik de hele dag weg om lekker te hiken. Rond een uurtje of half 7 zijn
@@ -111,7 +111,7 @@ const TimelinePage: React.FC = () => {
               dat toch wel gezelliger was dan weer naar ons eigen bed gaan. 
             </p>
             <div className={styles.one_image}>
-              <img src={"/images/6695372.png"} />
+              <img src={"/RoaJuul/images/6695372.png"} />
             </div>
             <p>
               In de ochtend word ik wakker met het bericht dat mijn vlucht anderhalf uur is 
@@ -140,7 +140,7 @@ const TimelinePage: React.FC = () => {
               de vrijdagavond:
             </p>
             <div className={styles.one_image}>
-              <img src={"/images/Screenshot_20231103-012103_WhatsApp.jpg"} />
+              <img src={"/RoaJuul/images/Screenshot_20231103-012103_WhatsApp.jpg"} />
             </div>
             <p>
               Ik vond het leuk om weer van je te horen, en was erg benieuwd naar de rest 
@@ -168,7 +168,7 @@ const TimelinePage: React.FC = () => {
               vraag nou moest formuleren, kwam ik uit op het volgende berichtje:
             </p>
             <div className={styles.one_image}>
-              <img src={"/images/Screenshot_20231103-013456_WhatsApp.jpg"} />
+              <img src={"/RoaJuul/images/Screenshot_20231103-013456_WhatsApp.jpg"} />
             </div>
             <p>
               Het was nog even bepalen wanneer wij beide konden, wie waarheen ging en hoe we
@@ -206,7 +206,7 @@ const TimelinePage: React.FC = () => {
               dat het alles waard was :)
             </p>
             <div className={styles.one_image}>
-              <img src={"/images/Schermafbeelding 2023-11-03 213448.png"} />
+              <img src={"/RoaJuul/images/Schermafbeelding 2023-11-03 213448.png"} />
             </div>
           </VerticalTimelineElement>
 
@@ -289,7 +289,7 @@ const TimelinePage: React.FC = () => {
               ingestapt om weer richting Groningen te gaann.
             </p>
             <div className={styles.one_image}>
-              <img src={"/images/Schermafbeelding 2023-11-03 224303.png"} />
+              <img src={"/RoaJuul/images/Schermafbeelding 2023-11-03 224303.png"} />
             </div>
           </VerticalTimelineElement>
 
@@ -310,7 +310,7 @@ const TimelinePage: React.FC = () => {
               leuker en leuker te vinden, waardoor ik me bedacht jou het volgende te sturen:
             </p>
             <div className={styles.one_image}>
-              <img src={"/images/Screenshot_20231103-232744_WhatsApp.jpg"} />
+              <img src={"/RoaJuul/images/Screenshot_20231103-232744_WhatsApp.jpg"} />
             </div>
             <p>
               Achteraf kreeg ik te horen dat je op dat precieze moment samen met Anne was, 
