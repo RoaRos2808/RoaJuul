@@ -3,7 +3,7 @@ import styles  from './Footer.module.css'; // Import your CSS file for styling
 import { BottomNavigation, BottomNavigationAction } from '@mui/material';
 import HomeIcon from '@mui/icons-material/Home';
 import TimelineIcon from '@mui/icons-material/Timeline';
-import HandshakeIcon from '@mui/icons-material/Handshake';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 import { useNavigate } from 'react-router-dom';
 
 const Footer: React.FC = () => {
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
         >
           <BottomNavigationAction label="Home" value='/RoaJuul' icon={<HomeIcon />} />
           <BottomNavigationAction label="Timeline" value='/RoaJuul/timeline' icon={<TimelineIcon />} />
-          <BottomNavigationAction label="Extra" value='/extra' icon={<HandshakeIcon />} />
+          <BottomNavigationAction label="Extra" value='/RoaJuul/extra' icon={<FavoriteIcon />} />
         </BottomNavigation>
       {/* <div className="instagram-logo">
         <img src="/images/Instagram_logo.png" alt="Instagram Logo" />

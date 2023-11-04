@@ -6,6 +6,7 @@ import TimelinePage from './pages/TimelinePage/TimelinePage';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import OnboardingPage from './pages/OnboardingPage/OnboardingPage';
+import ExtraPage from './pages/ExtraPage/ExtraPage';
 
 const App: React.FC = () => {
   const [onboarded, setOnboarded] = useState(false);
@@ -27,6 +28,7 @@ const App: React.FC = () => {
               <Route path="/" element={<HomePage />}></Route>
               <Route path="/RoaJuul" element={<HomePage />}></Route>
               <Route path="/RoaJuul/timeline" element={<TimelinePage />}></Route>
+              <Route path="/RoaJuul/extra" element={<ExtraPage />}></Route>
             </Routes>
             <Footer />
           </div>

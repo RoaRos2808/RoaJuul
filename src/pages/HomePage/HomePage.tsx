@@ -11,7 +11,7 @@ const HomePage: React.FC = () => {
     <div className={styles.HomePage}>
       <div className={styles.background}>
         <div className={styles.body}>
-          <div>
+          <div className={styles.title}>
             <h1>RoaJuul</h1>
           </div>
           <Fade delay={250} className={styles.front_image}>
