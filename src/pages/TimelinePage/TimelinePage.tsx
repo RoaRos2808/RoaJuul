@@ -337,9 +337,9 @@ const TimelinePage: React.FC = () => {
               tijd, en hadden we besloten om deze keer weer in Groningen af te spreken. Jij zou dat 
               weekend langs je opa en oma gaan, dus kwam jij met het volgende voorstel:
             </p>
-            {/* <div className={styles.one_image}>
-              <img src={"/RoaJuul/images/Screenshot_20231103-232744_WhatsApp.jpg"} />
-            </div> */}
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Screenshot_20231104-215212_WhatsApp.jpg"} />
+            </div>
             <p>
               Ik vond het eerlijk gezegd best spannend, maar ook echt heel leuk. Ik ben de 
               avond van te voren ook nog naar Sav geweest voor enige voorzorgsmaatregelen, want 
@@ -395,9 +395,9 @@ const TimelinePage: React.FC = () => {
               gereden om een lekker stukje te wandelen. En hier hebben we een uitkijktoren beklommen,
               wat ook de eerste keer was dat wij weer een foto samen gemaakt hebben:
             </p>
-            {/* <div className={styles.one_image}>
-              <img src={"/RoaJuul/images/Screenshot_20231103-232744_WhatsApp.jpg"} />
-            </div> */}
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230129_115133.jpg"} />
+            </div>
             <p>
               Rond een uur of 5 ben ik weer op de trein gestapt richting Groningen, en in de trein 
               kreeg ik confirmatie dat ik in ieder geval goedgekeurd was door Mille hahah.
