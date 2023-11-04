@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/RoaJuul/static/css/main.86205c7f.css",
-    "main.js": "/RoaJuul/static/js/main.ef1fa320.js",
+    "main.css": "/RoaJuul/static/css/main.4b65ef5d.css",
+    "main.js": "/RoaJuul/static/js/main.ed2f6fb5.js",
     "static/js/787.19803e63.chunk.js": "/RoaJuul/static/js/787.19803e63.chunk.js",
     "static/media/bg_bggenerator_com3.png": "/RoaJuul/static/media/bg_bggenerator_com3.95618c8cb3331d9e377b.png",
     "static/media/bg_bggenerator_com2.png": "/RoaJuul/static/media/bg_bggenerator_com2.44db54a0bdd2247330c8.png",
     "static/media/bg_bggenerator_com4.png": "/RoaJuul/static/media/bg_bggenerator_com4.39d302527240310d0fb0.png",
     "static/media/bg_bggenerator_com5.png": "/RoaJuul/static/media/bg_bggenerator_com5.b04a089264ce0ad0a3b2.png",
     "index.html": "/RoaJuul/index.html",
-    "main.86205c7f.css.map": "/RoaJuul/static/css/main.86205c7f.css.map",
-    "main.ef1fa320.js.map": "/RoaJuul/static/js/main.ef1fa320.js.map",
+    "main.4b65ef5d.css.map": "/RoaJuul/static/css/main.4b65ef5d.css.map",
+    "main.ed2f6fb5.js.map": "/RoaJuul/static/js/main.ed2f6fb5.js.map",
     "787.19803e63.chunk.js.map": "/RoaJuul/static/js/787.19803e63.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86205c7f.css",
-    "static/js/main.ef1fa320.js"
+    "static/css/main.4b65ef5d.css",
+    "static/js/main.ed2f6fb5.js"
   ]
 }
