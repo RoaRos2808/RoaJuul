@@ -11,6 +11,7 @@ import CoffeeIcon from '@mui/icons-material/Coffee';
 import MessageIcon from '@mui/icons-material/Message';
 import MessageOutlinedIcon from '@mui/icons-material/MessageOutlined';
 import CoffeeOutlinedIcon from '@mui/icons-material/CoffeeOutlined';
+import CoffeeRoundedIcon from '@mui/icons-material/CoffeeRounded';
 
 // interface HomePageProps {
 //     path: string;
@@ -322,31 +323,84 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="21 januari 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            contentStyle={{ background: '#ff5eb7', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #ff5eb7' }}
+            date="21 - 22 januari 2022"
+            iconStyle={{ background: '#ff5eb7', color: '#fff' }}
+            icon={<CoffeeRoundedIcon />}
           >
             <h3 className="vertical-timeline-element-title">De derde date</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Na de erg geslaagde tweede date, hadden we besloten om elkaar maar snel weer te zien 
+              want het was echt heel gezelligggg. Toevallig hadden we het weekend daarna beide genoeg 
+              tijd, en hadden we besloten om deze keer weer in Groningen af te spreken. Jij zou dat 
+              weekend langs je opa en oma gaan, dus kwam jij met het volgende voorstel:
+            </p>
+            {/* <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Screenshot_20231103-232744_WhatsApp.jpg"} />
+            </div> */}
+            <p>
+              Ik vond het eerlijk gezegd best spannend, maar ook echt heel leuk. Ik ben de 
+              avond van te voren ook nog naar Sav geweest voor enige voorzorgsmaatregelen, want 
+              ik wist nou niet helemaal hoe alles zou verlopen en je weet maar nooit hahah. Achteraf 
+              heb ik begrepen dat Nina je hier ook bewust van had gemaakt. Je was 
+              eerst van plan om met de Tesla te komen, maar dat werd uiteindelijk toch de trein en 
+              rond half 3 kwam je aan op het mooie Groninger station :). Ik heb je daar opgehaald met 
+              de fiets, en samen zijn we naar het mooie appartementje aan de Koeriersterweg gegaan. 
+              We zijn vervolgens weer de stad in gegaan, en hebben eerst een lekker drankje gedaan 
+              bij het Grand Café Time Out. Heel veel bijzonders hebben we overdag niet gedaan, maar we 
+              hebben wel lekker samen gekookt (iets met aubergine toch?). In de avond hebben we nog een 
+              drankje gedaan bij Het Zwarte Schaap, waarna we via het Noorderplantsoen weer richting 
+              huis gingen om lekker het bed in te kruipen. Ik had die week ook mijn mooie dozenstapel opgezet en een chromecast gekocht, zodat we 
+              ook gezellig samen een film konden gaan kijken. Dus lekker tegen elkaar aangekropen hebben 
+              we een film aangezet en hebben we de film mooi uitgekeken (kuch kuch). En dat was 
+              dan weer onze eerste keer samen slapen (en niet slapen), en volgens mij hebben we 
+              ook nog een heel tijdje gekletst als ik me het goed herinner. We hebben die nacht 
+              beide niet goed geslapen, maar dat mocht de pret van ons samen zijn niet derven.
+              Je ging niet meer naar je opa en oma, en rond een uur of 12 ging jij weer richting
+              Utrecht, want je had nog wel hockeywedstrijden te coachen. En dat was dan onze 
+              derde date, maar het begon al minder te voelen als dates en meer als een opkomende 
+              relatie (een prela if you will) :))
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="28 januari 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            contentStyle={{ background: '#36b38d', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #36b38d' }}
+            date="28 - 29 januari 2022"
+            iconStyle={{ background: '#36b38d', color: '#fff' }}
+            icon={<CoffeeIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">De vierde date (?)</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              We hadden na de derde date al snel besloten dat ik weer richting Utrecht zou 
+              komen, en deze keer bij jouw thuis een nachtje slapen. Dit vond ik natuurlijk 
+              ook wel een nieuwe stap, want na alle verhalen over je gezin was ik wel erg
+              benieuwd. Ik was ook heel erg benieuwd of ze mij wel goed zouden keuren hahah.
+              Rond een uurtje of 3 kwam ik aan op station Bunnik en liepen we richting jullie 
+              huis. Hier eenmaal aangekomen kom ik iedereen in je gezin te ontmoeten, en 
+              hebben we even een small talk over koetjes en kalfjes. We gaan daarna Pien 
+              uitlaten en drinken wat thee bij het Koetshuis Café. Terug in huize Bosch-Annee 
+              was het tijd om te dineren: kaasfondue! Ik begreep dat het een hele grote red flag 
+              was geweest als ik niet van kaas hield, dus gelukkig is dat niet het geval. Moet 
+              wel eerlijk zeggen dat ik me niet helemaal kon vinden in al jullie gesprekken, want 
+              het ging alleen maar over mensen en dingen waar ik niks van wist maar ik hoop niet 
+              dat ik al te stil was. Ik weet niet helemaal meer wat we allemaal gedaan hebben de 
+              rest van de dag, maar ik kan me alleen maar voorstellen dat het gewoon lekker gezellig 
+              was allemaal :). De volgende dag hebben we gezamenlijk ontbeten (want dat is een ding 
+              bij jullie op de zondag) met een lekker eitje en zijn we daarna richting een bos 
+              gereden om een lekker stukje te wandelen. En hier hebben we een uitkijktoren beklommen,
+              wat ook de eerste keer was dat wij weer een foto samen gemaakt hebben:
+            </p>
+            {/* <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Screenshot_20231103-232744_WhatsApp.jpg"} />
+            </div> */}
+            <p>
+              Rond een uur of 5 ben ik weer op de trein gestapt richting Groningen, en in de trein 
+              kreeg ik confirmatie dat ik in ieder geval goedgekeurd was door Mille hahah.
             </p>
           </VerticalTimelineElement>
 
