@@ -399,6 +399,8 @@ const TimelinePage: React.FC = () => {
               <img src={"/RoaJuul/images/20230129_115133.jpg"} />
             </div>
             <p>
+              Ik weet dat je deze foto niet zo heel mooi vindt, maar ik vind 'm eigenlijk best 
+              wel schattig :).
               Rond een uur of 5 ben ik weer op de trein gestapt richting Groningen, en in de trein 
               kreeg ik confirmatie dat ik in ieder geval goedgekeurd was door Mille hahah.
             </p>

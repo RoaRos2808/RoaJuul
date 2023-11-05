@@ -33,7 +33,15 @@
         }
 
         .google_keep {
-          color: #F4B400;
+          color: #ffbb00;
+        }
+
+        .star {
+          color: #f5ff68;
+        }
+
+        .front {
+          border-radius: 10px;
         }
       }
     }
