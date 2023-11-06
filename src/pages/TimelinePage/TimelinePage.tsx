@@ -15,6 +15,7 @@ import CoffeeRoundedIcon from '@mui/icons-material/CoffeeRounded';
 import SportsBarIcon from '@mui/icons-material/SportsBar';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
+import { Minimize } from '@mui/icons-material';
 
 // interface HomePageProps {
 //     path: string;
@@ -507,7 +508,7 @@ const TimelinePage: React.FC = () => {
               ook nog eens het hele traject tussen Zwolle en Groningen eruit. Dus heel omslachtig 
               moest je via Leeuwarden om uiteindelijk om 22:00 aan te komen op het station. We zijn 
               maar lekker snel naar mijn huis gegaan en tegen elkaar aangekropen, om het meeste uit 
-              de komende dag te halen: valentijnsdagggg :). 
+              de komende dag te halen: Valentijnsdagggg :). 
             </p>
             <p>
               Ik moet je eerlijk bekennen dat ik de chronologische volgorde van deze dag even 
@@ -567,16 +568,22 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#51508a', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #51508a' }}
             date="23 februari 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            iconStyle={{ background: '#51508a', color: '#fff' }}
+            icon={<Minimize />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Een iets minder avondje (oeps)</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Het weekend na Valentijnsdag hadden we beide al plannen, maar omdat ik die 
+              week daarna weg ging op skivakantie was het leuk om elkaar nog even een keertje
+              te zien. Dus jij kwam de donderdag weer naar Groningen toe, maar ik had nog iets 
+              te veel te doen en was daarnaast ook heel erg moe. Ik had hierdoor misschien niet 
+              heel veel aandacht aan jou besteed en ging ook relatief heel vroeg slapen. Was
+              misschien niet de beste nacht samen, maar weet dat ik echt heel blij was dat je er
+              was :))
             </p>
           </VerticalTimelineElement>
 
@@ -678,8 +685,8 @@ const TimelinePage: React.FC = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Julie jarig!</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
               ondertekst
             </p>
