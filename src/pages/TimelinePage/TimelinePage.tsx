@@ -12,6 +12,9 @@ import MessageIcon from '@mui/icons-material/Message';
 import MessageOutlinedIcon from '@mui/icons-material/MessageOutlined';
 import CoffeeOutlinedIcon from '@mui/icons-material/CoffeeOutlined';
 import CoffeeRoundedIcon from '@mui/icons-material/CoffeeRounded';
+import SportsBarIcon from '@mui/icons-material/SportsBar';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
 
 // interface HomePageProps {
 //     path: string;
@@ -247,8 +250,16 @@ const TimelinePage: React.FC = () => {
             <h3 className="vertical-timeline-element-title">Alleen maar appen</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              In de dagen van 3 t/m 11 januari hebben we elke dag hele lange gesprekken gehad.
-              Bijna elke avond in deze week sliepen we pas na 12 uur, maar de nacht van 11 januari 
+              In de dagen van 3 t/m 11 januari hebben we elke dag hele lange gesprekken gehad. 
+              Ik bedenk me ineens dat ik tijdens het appen ook nog even een leuke hint 
+              gooide die vervolgens compleet genegeerd werd:
+              <div className={styles.one_image}>
+                <img src={"/RoaJuul/images/Screenshot_20231106-155954_WhatsApp.jpg"} />
+              </div>
+              <div className={styles.one_image}>
+                <img src={"/RoaJuul/images/Screenshot_20231106-155918_WhatsApp.jpg"} />
+              </div>
+              Ik vond het een goeie hahah. Bijna elke avond in deze week sliepen we pas na 12 uur, maar de nacht van 11 januari 
               blijft wel de langste nacht die wij samen op WhatsApp gespendeerd hebben. Lekker praten 
               over van alles en nog wat, en jij zelfs een idee hebben om de Tesla te pakken en 
               even op en neer naar Groningen te gaan midden in de nacht. En dat alles nadat we maar 
@@ -408,47 +419,150 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="11 februari 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            contentStyle={{ background: '#2ba7bd', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #2ba7bd' }}
+            date="11 - 12 februari 2022"
+            iconStyle={{ background: '#2ba7bd', color: '#fff' }}
+            icon={<SportsBarIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Op stap in Utrecht!</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Na de ontmoeting met je ouders, duurde het weer een hele twee weken 
+              voordat we elkaar weer zagen. Ik ging namelijk een weekendje naar 
+              Budapest met Sav, en doordeweeks kon natuurlijk niet door werk. Maar op 
+              27 januari had je mij al gevraagd of ik het leuk zou vinden om op 11 
+              februari met jou en wat vriendinnen op stap te gaan, dus onze volgende 
+              keer afspreken stond al vast. Ik wist niet of jouw vriendinnen het goed vonden, 
+              maar volgens mij was dat niet heel erg:
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230127-WA0020.jpg"} />
+            </div>
+            <p>
+              Ik ben nu ook alle appjes aan het teruglezen, en het valt me gewoon op dat 
+              wij soms niet tot het einde van de middag iets naar elkaar sturen. Dit kan ik me 
+              dus nu echt helemaal niet meer voorstellen hahah. Maar terug naar het verhaal: Na 
+              de nacht van tevoren weer tot vet laat (3 uur) geappt te hebben, neem ik 's ochtends
+              de trein van 10:48 richting Bunnikkk. Eenmaal aangekomen, stappen we vrij snel de 
+              auto in om samen met Pien en dat andere hondje een leuke wandeling te maken op het
+              strand van Katwijk. Ik heb hier echt goeie herinneringen aan, zo samen over het strand 
+              lopen en een beetje met die honden spelen :)
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230212-WA0032.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230212-WA0024.jpg"} />
+            </div>
+            <p>
+                We rijden na ongeveer twee en een half uur terug, om daarna naar Belle te gaan 
+                en daar avond te eten. Samen met Noor en Belle, aten we een lekkere gevulde aubergine
+                , waarna Anne en Nina ook nog kwamen aanschuiven. We hadden inmiddels al aardig wat 
+                alcohol door ons systeem gegiet, dus ik hoop niet dat ik mezelf al te veel voor schut 
+                had gezet. Maar volgens mij had jij ook al wel genoeg op hahah. Leuk dat we ook beide
+                beige droegen, toen al een ANWB koppel :)
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230212-WA0026.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230212-WA0031.jpg"} />
+            </div>
+            <p>
+              Vervolgens zijn we doorgefietst naar een cafeetje, waar Suze er ook nog bij 
+              kwam te zitten. Op dit punt zat er al echt veel in en heb ik volgens mij ook 
+              eventjes niks gedronken, maar was wel een leuk plekje. Na het café zijn we 
+              doorgefietst naar een bar/club, waar we toch nog wat meer vloeistof in ons
+              systeem brachten. Ik kan me herinneren dat jij wel ineens heel schattig werd 
+              en beetje hangerig bij mij was, wat ik helemaal leuk vind. Ik denk dat we beide niet super veel meer weten over de avond,
+              maar het kan niet anders zijn dan gezellig zijn geweest :)
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230212-WA0029.jpg"} />
+            </div>
+            <p>
+              Op de terugweg nog even heen en weer geslingerd op de fiets, en daarna lekker naast elkaar 
+              in bedje gaan liggen. In de ochtend moesten we toch relatief op tijd weer het 
+              bedje uit, want jij had een hockeywedstrijd te coachen. Dus ben ik weer op de trein 
+              richting Groningen gestapt, om nog maar eventjes uit te brakken. Maar valentijnsdag zat er 
+              al snel aan te komen, dus we hoefden niet lang meer te wachten om elkaar weer te zien :)
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="14 februari 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            contentStyle={{ background: '#ff0084', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #ff0084' }}
+            date="13 - 14 februari 2022"
+            iconStyle={{ background: '#ff0084', color: '#fff' }}
+            icon={<FavoriteIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Valentijnsdag :))</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Een dag nadat ik weg ging uit Bunnik, kwam jij alweer naar Groningen toe. Overdag moest 
+              je nog werken, dus rond 18:30 kwam jij weer naar het hoge noorden toe, maar 
+              dit ging niet helemaal zo soepel als gehoopt hahah. Jouw trein reed sloom, en uiteindelijk lag 
+              ook nog eens het hele traject tussen Zwolle en Groningen eruit. Dus heel omslachtig 
+              moest je via Leeuwarden om uiteindelijk om 22:00 aan te komen op het station. We zijn 
+              maar lekker snel naar mijn huis gegaan en tegen elkaar aangekropen, om het meeste uit 
+              de komende dag te halen: valentijnsdagggg :). 
+            </p>
+            <p>
+              Ik moet je eerlijk bekennen dat ik de chronologische volgorde van deze dag even 
+              helemaal kwijt ben, maar genoeggg wat ik me kan herinneren. In de ochtend hebben 
+              we eerst even een lekker ontbijtje gehaald bij de Coop, om deze mooie super leuke dag 
+              te beginnen :). Ik had niet heel veel voor deze dag voorbereid, maar het leek me 
+              een goed idee om naar Kaap Hoorn te fietsen om daar een leuk wandelingetje te maken. 
+              We hadden echt heel erg geluk met het weer, wat de dag nog perfecterder maakte dan perfect :).
+              We claimden een bankje, waar jij mij heel lief een hartjes koek gaf en ik die oppeuzelde 
+              terwijl we leuk gingen mensen kijken. Na een aantal minuutjes, voelde ik al wel snel een 
+              klein probleempje vormen in mijn keel en wat bleek; er zaten walnoten in de koek :D. Ik heb 
+              er wel eventjes een goede poos last van gehad, maar de gezelligheid overheersde genoeg dat 
+              ik er niet al te veel van merkte. Na Kaap Hoorn, zijn we door gelopen en gefietst 
+              om het Hoornsemeer heen, waar we eerst nog een bankje hadden geclaimd om over het meer uit te 
+              kijken (en om misschien al wel een beetje klef te doen oepsiee). We fietsten door en zagen 
+              best veel mensen op steigertjes zitten langs het water, en na enige momenten hadden we 
+              ook onze eigen steiger gevonden. Heeerlijk vond ik dit, eventjes liggen in het zonnetje 
+              met de meid waar ik nu wel echt heel verliefd op was. We hebben hier ook echt wel eventjes
+              gezeten en gelegen, maar alles was gewoon perfectttt. Na het lekkere relaxen, was het nu ook 
+              tijd om even competitief te zijn. We zijn doorgegaan naar het Poolcafé Streetlife, om te gaan 
+              poolen. Helaasss werd het gelijkspel, maar we moeten ooit nog maar eens een rematch houden :)
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230214_164532.jpg"} />
+            </div>
+            <p>
+              Hierna zijn we uit eten geweest bij Magoya, waar we nog even heerlijke Aziatische 
+              gerechten gegeten hebben. De dag was alweer bijna voorbij, want jij moest ook nog 
+              terug naar Bunnik. We zijn na het eten nog een uur gaan chillen op de bank thuis, 
+              toen jij mij vertelde dat je nog iets voor me had: een wegwerpcamera en een heel lief 
+              kaartje :). Na het kaartje gelezen te hebben, vroeg jij mij of jij mij nu ook officieel je
+              vriend(je) mag noemen, waarop ik natuurlijk ja antwoordde :)). Ik heb je daarna naar 
+              het station gebracht, waarna jij wederom richting Bunnik ging, maar deze keer met een relatie :)
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#ff5e94', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #ff5e94' }}
             date="16 februari 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            iconStyle={{ background: '#ff5e94', color: '#fff' }}
+            icon={<FavoriteBorderRoundedIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Allereerste hartje</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Ik was de avond van de 15de naar mijn oma geweest, waarna ik 's avonds laat weer
+              terug kwam en allemaal haren van jou in mijn bed zag liggen. Dit moest ik 
+              natuurlijk even laten weten, nadat jij mij heel lief de reden vertelde wat resulteerde 
+              in het allereerste hartje sinds onze ontmoeting:
             </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Screenshot_20231106-181838_WhatsApp.jpg"} />
+            </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
