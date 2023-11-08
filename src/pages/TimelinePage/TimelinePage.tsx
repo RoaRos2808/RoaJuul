@@ -15,7 +15,7 @@ import CoffeeRoundedIcon from '@mui/icons-material/CoffeeRounded';
 import SportsBarIcon from '@mui/icons-material/SportsBar';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
-import { Cake, LocationCity, Minimize, Restaurant } from '@mui/icons-material';
+import { BrunchDining, Cake, LocationCity, Minimize, Restaurant } from '@mui/icons-material';
 
 // interface HomePageProps {
 //     path: string;
@@ -687,17 +687,37 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#6bbdd6', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #6bbdd6' }}
             date="18 maart 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            iconStyle={{ background: '#6bbdd6', color: '#fff' }}
+            icon={<BrunchDining />}
           >
             <h3 className="vertical-timeline-element-title">Leiden!</h3>
             <h4 className="vertical-timeline-element-subtitle">+ ontmoeting Sav en mam</h4>
             <p>
-              
+              De dag na Zwolle had ik aan je voorgesteld of je het leuk leek om de volgende zaterdag
+              uit eten te gaan in Leiden, samen met mij, Sav en mijn moeder. Ik wist dat je die middag 
+              in Delft zou zijn om samen met Sam te lunchen, en het dagje naar Leiden stond 
+              al gepland dus was dit de perrrfecte kans om elkaar te ontmoeten. Na een rustige 
+              werkweek was het alweer zaterdag, en maakte wij ons klaar voor een leuk dagje Leiden. 
+              Na ons dagje met z'n drieën, kwam jij om 17:15 aan op station Leiden om ons te 
+              vergezellen :). Ik haal jou op bij het station en samen lopen we richting Pavarotti 
+              Dolce, waar Sav en mam al zitten te wachten op deze heeele speciale ontmoeting (ik weet 
+              ook gewoon zeker dat mijn moeder het heel spannend vond hahah). Een klein probleempje 
+              wat je al wel gemerkt hebt is dat ik, Sav en mam dus wel goed zijn in elkaar een beetje 
+              plagen en vervolgens helemaal in de slappe lach raken. Ik hoop niet dat je je er een 
+              beetje buitengesloten bij voelde, maar ik vond het wel een hele gezellige avond. 
+              Inmiddels ken je ze ook al wel wat langer nu, maar leuk om terug te denken aan die 
+              eerste ontmoeting hahah. Na het eten namen we afscheid van hun twee, en baanden wij 
+              onze weg richting Bunnik. Tijdens het lopen begon het helaas wel te regenen, en raad 
+              eens wie weer geen jas aan heeft (spoiler: ikke) dus hebben wij ons nog even verscholen 
+              onder een afdakje. Ik weet nog dat jij echt heel happy en hyper was hahah, maar het was 
+              ook gewoon (weer) heel leukkk :)
             </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230319-WA0021.jpg"} />
+            </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
@@ -708,11 +728,20 @@ const TimelinePage: React.FC = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Boulderen en sushiii</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
               ondertekst
             </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230319_120833.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230319_122449.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230319_184548.jpg"} />
+            </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
