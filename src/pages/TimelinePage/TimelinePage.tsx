@@ -15,7 +15,7 @@ import CoffeeRoundedIcon from '@mui/icons-material/CoffeeRounded';
 import SportsBarIcon from '@mui/icons-material/SportsBar';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
-import { Minimize } from '@mui/icons-material';
+import { Cake, LocationCity, Minimize, Restaurant } from '@mui/icons-material';
 
 // interface HomePageProps {
 //     path: string;
@@ -589,62 +589,100 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#3abd5f', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #3abd5f' }}
             date="27 februari 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            iconStyle={{ background: '#3abd5f', color: '#fff' }}
+            icon={<Cake />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Jij bent jarig!!</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              In deze skivakantie week was jij ook jarig: alweer 19!! Volgend jaar moeten 
+              we het maar even groots vieren, want ik ben er de volgende keer zekerrr bij :)
+              En ik was ook vergeten een gefeliciteerd video te maken op de ski's wat ik
+              je had gezegd te gaan doen, dus die heb je ook nog van me tegoed :D
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#eb9249', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #eb9249' }}
             date="9 maart 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            iconStyle={{ background: '#eb9249', color: '#fff' }}
+            icon={<Restaurant />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Uiteten met mams</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Na het weekje skivakantie, had ik de donderdag daarna afgesproken met 
+              mijn moeder om even lekker uit eten te gaan. Hier heb ik ook het nieuws 
+              gebracht dat ik een relatie heb met een hele leuke meid genaamd Julie, en ik 
+              had mijn moeder in tijden niet zo nieuwsgierig gezien hahah. Ik denk dat ze 
+              op dat moment jou ook zo snel mogelijk wilde ontmoeten, dus dat moest dan ook 
+              maar een keertje :)
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#ff3d3d', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #ff3d3d' }}
             date="11 maart 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            iconStyle={{ background: '#ff3d3d', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">'I love you'</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Wij waren weer eens een nachtje aan het appen en we gingen zo'n lange 
+              couples vragenlijst af (dit vond ik toen trouwens echt heel leuk). En toen 
+              kwam de volgende vraag:
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Screenshot_20231108-181705_WhatsApp.jpg"} />
+            </div>
+            <p>
+              Ik vind dat laatste berichtje van jou al helemaal leuk hahah, veel te 
+              klef allemaal :))
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#5c69ff', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #5c69ff' }}
             date="12 maart 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            iconStyle={{ background: '#5c69ff', color: '#fff' }}
+            icon={<LocationCity />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Dagje Zwolle Cityy</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Op zondag 12 maart hadden we weer afgesproken elkaar te zien, en omdat 
+              ik alleen op de zondag kon hadden we besloten om zo min mogelijk tijd 
+              te verspillen aan treinen en een middenweg kozen in Zwolle. De dag bestond 
+              voornamelijk weer uit heel veel lopen en lopen, maar dat blijf ik toch 
+              wel heel leuk vinden. Ik kan me niet herinneren of we ook ergens geluncht
+              hebben, maar volgens mij hebben we een broodje gehaald bij de supermarkt 
+              en zijn we weer lekker parkjes op gaan zoeken. Je hebt me hier ook wat 
+              mindere dingen verteld, maar ik vind het heel fijn dat je het mij hebt laten 
+              weten en weet ook dat ik er altijd voor je ga zijn als je je niet zo goed voelt &lt;3.
+              In de avond hadden we een goeie piekersessie over waar we nou wilden gaan eten, 
+              maar we zijn uiteindelijk tot een besluit gekomen om lekkere Griekse streetfood te eten. 
+              Na het avondeten, hebben we besloten om nog een parkje op te zoeken en het enige 
+              parkje dat we nog niet gehad hadden was nogal ver weg, maar we besloten er toch 
+              heen te lopen. Wat mij daar heel memorabel blijft is het bankje met het uitzicht op het basketbalveld 
+              bovenop het dak bij de brandweerkazerne. Het blijft gewoon zo fijn om even samen 
+              met elkaar te zijn en lekker te kletsen enzo :). Ik kan mijn stappenteller niet 
+              meer zien van die dag, maar volgens mij liet jij me ooit zien dat dit de dag was 
+              waar je bijna je record behaald had hahah. Vlak voor 11en stappen we beide op de 
+              trein, elk richting ons eigen huis om elkaar daarna weer een week te moeten missen :(
             </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Schermafbeelding 2023-11-08 183859.png"} />
+            </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
@@ -655,10 +693,10 @@ const TimelinePage: React.FC = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Leiden!</h3>
+            <h4 className="vertical-timeline-element-subtitle">+ ontmoeting Sav en mam</h4>
             <p>
-              ondertekst
+              
             </p>
           </VerticalTimelineElement>
 
@@ -685,7 +723,7 @@ const TimelinePage: React.FC = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Julie jarig!</h3>
+            <h3 className="vertical-timeline-element-title">Twmp</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
               ondertekst
