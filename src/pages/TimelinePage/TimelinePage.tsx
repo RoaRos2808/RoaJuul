@@ -15,7 +15,7 @@ import CoffeeRoundedIcon from '@mui/icons-material/CoffeeRounded';
 import SportsBarIcon from '@mui/icons-material/SportsBar';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
-import { BrunchDining, Cake, LocationCity, Minimize, Restaurant } from '@mui/icons-material';
+import { BrunchDining, Cake, GroupWork, LocationCity, Minimize, Restaurant } from '@mui/icons-material';
 
 // interface HomePageProps {
 //     path: string;
@@ -43,10 +43,12 @@ const TimelinePage: React.FC = () => {
               waarna Pim mij twee Nederlandse meiden introduceert: Julie en Noor. Pim en Noor gaan schaken,
               waarbij wij beide een beetje proberen te helpen, maar niet echt de tactieken kennen om iets 
               nuttigs toe te voegen aan het spel. Het viel mij daar al wel op dat jij echt een leuke spontane
-              meid bent, en het was echt leuk om te kletsen. Omdat jullie op Belle gingen wachten, gingen jullie
-              niet mee uit eten met ons. De anderen wilden graag richting een bar, maar ik besloot terug te gaan om
-              met jullie te chillen (iee ik weet het, dit blijft echt heel cringe). We doen wat shotjes en gaan richting 
-              de bar, waar de rest al lekker aan het dansen is.
+              meid bent, en het was echt leuk om te kletsen. We hebben daar een beste tijd gezeten met iedereen,
+              maar omdat jullie op Belle gingen wachten, gingen jullie daarna niet mee uit eten met ons. Na ons diner 
+              wilden de anderen graag richting een bar, maar ik besloot terug te gaan om
+              met jullie te chillen (iee ik weet het, dit blijft echt heel cringe maar misschien was dit juist wel een 
+              hele goeie move nu achteraf gezien). We doen wat shotjes en gaan richting de bar, waar de rest al
+              lekker aan het dansen is.
             </p>
             <div className={styles.one_image}>
               <img src={"/RoaJuul/images/20221126_194834.jpg"} />
@@ -65,33 +67,58 @@ const TimelinePage: React.FC = () => {
             {/* <h4 className="vertical-timeline-element-subtitle">Sofia, Bulgarije</h4> */}
             <p>
               In deze bar kun je geen drankjes halen bij de bar, maar moet je wachten
-              tot het personeel naar je toe komt. Jullie halen een lekker shotje voor iedereen,
-              we drinken nog wat bier. Maar alhoewel het heel gezellig was met iedereen,
-              zijn wij met z'n vieren naar de Terminal 1 Club gegaan. Hier krijgen we het leuke
-              voorval dat jij als enige niet binnen komt, want de club is te vol. Na even te hebben
-              gewacht, kom je toch binnen en gaan we gezellig dansen met z'n vieren. Op dit moment
-              ben ik misschien wel gaan flirten, en vraag ik je of je wilt zoenen. Je laat duidelijk
-              merken dat je me niet verstaat (WAT?!), maar een seconde of twee later staan we daar
-              dan toch dichterbij elkaar dan voorheen. Ik bedenk me nu dat dit ook gefilmd is en leuk
-              om te bedenken dat er ons zo veel stond te wachten na dit moment :). Na alle gezelligheid
-              in de club, zijn we terug gegaan naar het hostel waar we op ons welbekende bankje
-              zijn gaan zitten. Voor mij is dit nog steeds een van de hoogtepunten van het hele
-              weekend, en ik vond het echt heel leuk en fijn om gewoon lekker met jou te kletsen.
-              Je bericht me nog op instagram met een 'slaap lekker :))', wat ik in de ochtend 
-              met veel plezier las :).
+              tot het personeel naar je toe komt. Jullie halen een lekker shotje voor iedereen en
+              we drinken nog wat bier. We hebben ook nog wat leuke BeReals gemaakt.
             </p>
             <div className={styles.one_image}>
               <img src={"/RoaJuul/images/Screenshot_20230812-120422_BeReal.jpg"} />
             </div>
+            <p>  
+              Maar alhoewel het heel
+              gezellig was met iedereen, zijn wij met z'n vieren naar de Terminal 1 Club gegaan want we
+              hadden wel zin in iets meer actie dan constant moeten wachten. De rij viel nog best mee in 
+              vergelijking met wat Jessie mij gestuurd had, dus dat was helemaal top. Na eindelijk vooraan 
+              te staan in de rij, krijgen we hier het leuke voorval dat jij als enige niet binnen komt,
+              want de club is te vol. Ik heb daar nog op je staan wachten, want vond het toch wel zielig 
+              dat je daar zo stond. Na even te hebben
+              gewacht, kom je toch binnen en gaan we gezellig dansen met z'n vieren. Volgens mij nam ik jou 
+              toen met de hand mee, zodat we gezamenlijk door de menigte konden komen. We halen ook samen 
+              nog wat bier op voor ons 4 (ook met de hand meegenomen?). Op dit moment
+              ben ik misschien wel best flirterig, en na een tijdje te hebben gedanst vraag ik je of je wilt zoenen (oeee).
+              Je laat duidelijk
+              merken dat je me niet verstaat (WAT?!), maar een seconde of twee later staan we daar
+              dan toch dichterbij elkaar dan voorheen. Ik bedenk me nu dat dit ook gefilmd is en leuk
+              om te bedenken dat er ons zo veel stond te wachten na dit moment :). Na alle gezelligheid
+              in de club, zijn we naar buiten gegaan en zijn we daar nog even gebleven met die Bulgaar 
+              van Noor en de Portugees van Belle. Wij zijn samen met Noor terug gegaan naar het hostel, terwijl 
+              Belle met de Portugees mee ging. Aangekomen bij het hostel, zijn we op ons welbekende bankje
+              gaan zitten. Voor mij is dit nog steeds een van de hoogtepunten van het hele
+              weekend, en ik vond het echt heel leuk en fijn om gewoon lekker met jou te kletsen. Het voelt ook 
+              een beetje als de start van onze connectie. Na best snel word jij opgebeld door Belle of we 
+              haar op kunnen halen, want ze wilde toch niet mee met de Portugese gast. Dus wij lopen weer 
+              richting de club en komen Belle onderweg tegen, om vervolgens weer terug te gaan naar 
+              het hostel en ons bankje weer te claimen. Na hele leuke gesprekken, gaan we maar lekker slapen 
+              want het was inmiddels al 5 uur geweest. Je bericht me nog op instagram met een 'slaap lekker :))', wat ik in de ochtend 
+              met veel plezier las :). Toendertijd kende ik je natuurlijk nog helemaal niet goed, maar je hebt 
+              Morris nog een aantal leuke appjes gestuurd wat ik echt heel lief vind om dit achteraf 
+              te lezen:
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230326-WA0033.jpg"} />
+            </div>
             <p>
-              De volgende dag (zelfde dag :P) ben ik de hele dag weg om lekker te hiken. Rond een uurtje of half 7 zijn
-              wij weer terug, en ben jij daar spelletjes aan het spelen met Noor en Belle. Na gedoucht
+              De volgende dag (zelfde dag :P) ben ik de hele dag weg om lekker te hiken. Ik laat jou dit ook 
+              weten via insta en vraag je of jullie het nog laten weten als jullie iets leuks gaan doen 
+              in de avond. Rond een uurtje of half 7 zijn  wij weer terug, en ben jij daar spelletjes
+              aan het spelen met Noor en Belle. Na gedoucht
               te hebben kom ik bij jullie zitten, maar veel contact hebben we niet in de eerste paar
-              uurtjes. Ik wist niet helemaal zeker hoe jij je over de avond daarvoor voelde, maar ik
+              uurtjes. Ik wist niet helemaal zeker hoe jij je over de avond daarvoor voelde of dat je gewoon 
+              een beetje nerveus was, maar ik
               probeerde het gewoon gezellig te houden. In de avond hebben we leuke spelletjes gespeeld
               met een aantal anderen, en toen vond ik het leuk dat je lekker mee dronk met de vodka
-              zonder dat veel anderen dit ook deden (oeps voor later). Het leek er niet op alsof de avond
-              nog heel evenementvol zou worden, maar toch zijn we naar een bar geweest. 
+              zonder dat veel anderen dit ook deden (oeps voor later). Wij waren denk ik beide inmiddels 
+              al wel aardig aangeschoten en het leek er niet op alsof de avond
+              nog heel evenementvol zou worden, maar uiteindelijk zijn we toch naar een bar geweest. 
             </p>
           </VerticalTimelineElement>
 
@@ -106,14 +133,28 @@ const TimelinePage: React.FC = () => {
             <h3 className="vertical-timeline-element-title">Tweede avondje stappen!</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              De avond was vaag; we hebben gedart en ik heb je heel vaak belachelijk gemaakt om je 'zeg maarrrrr' en toch
-              bleek er nog steeds ergens een vonk tussen ons te zitten :). Zonder mijn geweten hebben de 
-              anderen een weddenschap gehouden hoe laat wij zouden gaan zoenen. Jij wist dit wel, en jij 
-              bent uiteindelijk naar mij toe gelopen om Tobi te laten winnen :D. We hebben nog genoten
-              van Belle en Pim, en zijn daarna weer terug gelopen om ons oud vertrouwde bankje weer in 
-              te nemen. Het was echt ijs ijs ijskoud, maar we hielden elkaar een beetje warm (oke en misschien 
-              de dekens ook). We hebben weer leuuuuuk gekletst en zijn daarna samen gaan slapen, omdat 
-              dat toch wel gezelliger was dan weer naar ons eigen bed gaan. 
+              Bij de eerste bar die we binnen gingen leek het heel dood en de sfeer zat er niet helemaal in, 
+              dus zijn we verder gegaan op zoek naar een andere bar. We komen via een best wel random gangetje ergens 
+              boven bij een soort bar, waar wel een paar mensen waren. Het plekje was best leuk en 
+              we konden de plek wel een goede sfeer geven met het aantal mensen waarmee wij waren. 
+              Ik herinner me niet heel veel meer op chronologische volgorde, maar ik was dan ook wel 
+              best dronken. Ik weet nog dat ik met een Argentijnse gast aan het darten was en toen kwam 
+              jij er bij staan. Dit vond ik al wel heel leuk, want het gaf me wel iets van een indicatie dat 
+              je me op zocht. We hebben beide 3 darts gegooid en toen waren we er ook wel klaar mee 
+              volgens mij hahah. Jij gooide 27 en ik 14 (heeel typisch wel). Vervolgens weet ik het niet 
+              helemaal meer. Ik was best wel heel irritant en ik heb je heel vaak belachelijk gemaakt om je 'zeg maarrrrr',
+              maar toch bleek er nog steeds ergens een vonk tussen ons te zitten :). Zonder mijn geweten hebben de 
+              anderen een weddenschap gehouden hoe laat wij weer zouden gaan zoenen. Dit is mij helemaal voorbij 
+              gegaan, maar jij wist dit wel. Je bent uiteindelijk naar mij toe gelopen en hebt mij letterlijk uitgelegd 
+              wat er gaande was (en je liet me de lijst ook even zien). Je vroeg of we Tobi dan maar zullen laten winnen :D.
+              Je bent ook nog even op een krukje gaan zitten omdat je te moe was om te blijven staan hahah. 
+              We hebben daarna nog heerlijk genoten van Belle en Pim, terwijl we met een groepje hun twee aan 
+              het insluiten waren met krukken. We zijn daarna weer terug gelopen om ons oud vertrouwde bankje weer in 
+              te nemen. Hier hadden we ook nog even goed uitzicht op het andere kleffe tweetal (iew). Het was echt
+              ijs ijs ijskoud, maar we hielden elkaar een beetje warm (oke en misschien 
+              de dekens ook). We hebben weer leuuuuuk gekletst en daarna vroeg je mij om samen te gaan slapen, omdat 
+              dat toch wel gezelliger was dan weer naar ons eigen bed gaan. Het plan was eerst om in mijn bed te gaan 
+              liggen, maar jouw bedje had een gordijn dus was dat wel de betere keuze. 
             </p>
             <div className={styles.one_image}>
               <img src={"/RoaJuul/images/6695372.png"} />
@@ -124,8 +165,13 @@ const TimelinePage: React.FC = () => {
               helemaal niet erg :). Na een tijdje maak jij je een beetje klaar en kom je weer 
               naast me zitten, maar het aantal keer dat wij oogcontact hadden kan ik op 
               1 vinger tellen hahah. We komen best laat uit bed, en na te hebben ontbeten en 
-              ik nog een rondje lopen, was het tijd om afscheid te nemen. Een goeie afscheidsknuffel,
-              dat meer voelde als een 'tot later' dan een 'vaarwel' ;)
+              ik mijn spullen nog heb ingepakt, was het tijd om afscheid te nemen. Een goeie afscheidsknuffel,
+              dat meer voelde als een 'tot later' dan een 'vaarwel' ;).
+
+              Onderweg naar het vliegveld stuur jij mij nog het beruchte lijstje van de nacht daarvoor, 
+              en praten we nog eventjes over het feit dat ik misschien wel per ongeluk een sok van jou 
+              heb meegenomen in mijn tas. Daarna vraag ik je heel subtiel of je me nog foto's/video's 
+              wilt sturen van het weekend, en geef ik je mijn nummer zodat je dat via WhatsApp kunt doen :))
             </p>
           </VerticalTimelineElement>
 
@@ -140,7 +186,8 @@ const TimelinePage: React.FC = () => {
             <h3 className="vertical-timeline-element-title">Het moedige appje</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              Na het weekend hadden we op de dinsdag nog even geappt, waarna het gesprek voorbij was 
+              Na het weekend hadden we op de dinsdag nog even geappt nadat jij me een leuke foto had gestuurd 
+              van jullie in de sneeuw, waarna het gesprek relatief snel voorbij was 
               en er de drie dagen daarna niks gestuurd werd. Totdat ik ineens een appje ontving op 
               de vrijdagavond:
             </p>
@@ -718,20 +765,32 @@ const TimelinePage: React.FC = () => {
             <div className={styles.one_image}>
               <img src={"/RoaJuul/images/IMG-20230319-WA0021.jpg"} />
             </div>
+            <p>
+              Mijn moeder vond het trouwens ook heel leuk, ik kreeg nog het volgende appje toegestuurd:
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Screenshot_20231108-224130_WhatsApp.jpg"} />
+            </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#426cc7', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #426cc7' }}
             date="19 maart 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            iconStyle={{ background: '#426cc7', color: '#fff' }}
+            icon={<GroupWork />}
           >
             <h3 className="vertical-timeline-element-title">Boulderen en sushiii</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Na een heerlijk nachtje in jouw bedje, stonden we de volgende ochtend weer 
+              op met het goeie plan om te gaan boulderen! Ik had dit nog nooit gedaan, 
+              maar het leek me wel heel leuk en een goeie eerste keer dat we samen iets 
+              actiefs doen (oke als je al het lopen niet meetelt) :). Duss op de fiets 
+              naar Utrecht en met de sportkleding mee gaan we richting de boulderhal. 
+              Ik vond het heel leuk, maar mijn handen waren wel echt compleet vernaggeld 
+              na al het geklauter hahah. 
             </p>
             <div className={styles.one_image}>
               <img src={"/RoaJuul/images/20230319_120833.jpg"} />
@@ -739,23 +798,87 @@ const TimelinePage: React.FC = () => {
             <div className={styles.one_image}>
               <img src={"/RoaJuul/images/20230319_122449.jpg"} />
             </div>
+            <p>
+              Na eenmaal terug te zijn en gedoucht te hebben, kom jij met het 
+              idee om zelf sushi te gaan maken. Ook dit had ik nog nooit gedaan hahah, 
+              maar sushi is natuurlijk wel heel lekker dus gooood plan. Wij gingen nog even 
+              naar de winkel en waren daarna aan het eind van de middag begonnen aan 
+              het sushi project. Ze waren echt goed gelukt en het was ook nog eens heel 
+              lekker, dus een geslaagd idee :). Ik herinner me ook dat we nog een foto 
+              hebben gemaakt op die wegwerpcamera, dus die moet ik maar eens vaker gaan 
+              gebruiken zodat we die ooit eens kunnen zien.
+            </p>
             <div className={styles.one_image}>
               <img src={"/RoaJuul/images/20230319_184548.jpg"} />
             </div>
+            <p>
+              Het was wel weer een zondag, dus helaas kon ik niet nog een nachtje blijven 
+              slapen. Dus moesten we weer een weekje wachten om elkaar weer te zien, maar 
+              het volgende weekend was ook alweer vol gepland met een heel weekendje 
+              naar Eindhoven :D.
+            </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="24 maart 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            contentStyle={{ background: '#a86cd4', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #a86cd4' }}
+            date="24 - 26 maart 2022"
+            iconStyle={{ background: '#a86cd4', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Twmp</h3>
+            <h3 className="vertical-timeline-element-title">Weekendje Eindhoven!</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Na een lang 5-daags werkweekje was het weer tijd om richting het zuiden 
+              te gaann. Na werk op de vrijdag, nam ik de trein van 18:48 om vervolgens 
+              rond 21:00 bij jullie te arriveren. Na nog geen 5 minuten binnen te zijn
+              geweest, stapten we alweer de auto in om verder rijden naar Eindhoven/Riethoven. 
+              En dan na een uurtje rijden komen wij rond 22:00 aan bij het huis van Brenda en Armand.
+              Hier ontmoet ik niet alleen je oom, tante, neefjes en nichtje, maar ook je opa en
+              oma waren aanwezig. Het Nederlands elftal was aan het spelen, en na wat gekletst
+              en wat thee/water gedronken te hebben gingen we lekker naar ons eigen plekje 
+              in de tuin. Hier hebben we nog even lekker gelegen, bed BeReals gemaakt en daarna 
+              zijn we maar lekker gaan slapen (en misschien niet slapen eerst nog :)).
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230326-WA0018.jpg"} />
+            </div>
+            <p>
+              Na een lekker nachtje samen, zijn we 's ochtends best laat uit bed gegaan om maar 
+              eens te gaan ontbijten. Ik herinner me niet helemaal meer wat we die ochtend en begin 
+              van de middag gedaan hebben, maar volgens mij hebben we leuk op de trampoline gesprongen,
+              frisbee over gegooid en overal het algemeen gewoon chillingss. In de middag zijn we 
+              met de auto op pad gegaan om een goeie wandeling te maken. Maar voordat we dat deden,
+              gingen we nog langs de Jumbo om wat drank en snackies te kopen (oee oee wat gaan wij 
+              nou weer doen). We rijden door richting de grens van België, en maken een wandelingetje 
+              door het bos. Wij lopen hier hand in hand en we komen een jongere jongen en meid tegen,
+              en nadat zij ons passeren zien wij achter ons dat ze ook heel lief hun handen vastpakken. 
+              Vond ik toch wel eventjes heel schattig, wat voor liefde wij uitstralen hahah :). We rijden 
+              weer terug en gaan binnen gezellig doen. We gaan sjoelen en ik haal toch even het record
+              van de dag (ja dat vind ik natuurlijk heel leuk).
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Screenshot_20230325-200218_BeReal.jpg"} />
+            </div>
+            <p>
+              Een uurtje later eten we samen met de
+              hele groep heerlijke spaghetti bolognese, en ik herinner me nog dat jij (volgens jou) onbewust 
+              een handje op mijn been legt (oeeoeee). We blijven nog tot een uurtje of 8/9 kletsen en 
+              thee drinken, en verkassen daarna terug naar ons eigen stekje. Hier hadden we natuurlijk
+              nog de drank en snackies liggen want (tromgeroffel) bodyshotsss. Ik vond dit zo leuk dat we dit
+              hadden bedacht en ook gewoon leuk deden, lekker random maar vet grappig. Ook hebben we nog 
+              geblinddoekt lichaamsdelen geraden en een spel waarbij er kleding verdween. Dit is daarna nog 
+              wel wat verder geëscaleerd, en ik vond het echt heel heel gezellig. Nu ik dit ook aan het 
+              typen ben vind ik het ook weer helemaal leuk hahah, we moeten maar eens weer een keertje zo'n 
+              random leuk avondje doen. Na een goede workout hebben we weer wat selfies gemaakt en zijn 
+              we lekker gaan slapen :)
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Snapchat-1805541759.jpg"} />
+            </div>
+            <p>
+              De volgende ochtend
             </p>
           </VerticalTimelineElement>
 
@@ -802,6 +925,9 @@ const TimelinePage: React.FC = () => {
             <p>
               ondertekst
             </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Screenshot_20231108-224147_WhatsApp.jpg"} />
+            </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
