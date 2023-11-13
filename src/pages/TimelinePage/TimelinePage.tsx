@@ -15,7 +15,7 @@ import CoffeeRoundedIcon from '@mui/icons-material/CoffeeRounded';
 import SportsBarIcon from '@mui/icons-material/SportsBar';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
-import { BrunchDining, Cake, GroupWork, LocationCity, Minimize, Restaurant } from '@mui/icons-material';
+import { BrunchDining, Cake, Explore, GroupWork, LocationCity, Minimize, PregnantWoman, Restaurant } from '@mui/icons-material';
 
 // interface HomePageProps {
 //     path: string;
@@ -76,7 +76,13 @@ const TimelinePage: React.FC = () => {
             <p>  
               Maar alhoewel het heel
               gezellig was met iedereen, zijn wij met z'n vieren naar de Terminal 1 Club gegaan want we
-              hadden wel zin in iets meer actie dan constant moeten wachten. De rij viel nog best mee in 
+              hadden wel zin in iets meer actie dan constant moeten wachten.
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20221128-WA0023.jpg"} />
+            </div>
+            <p>
+              De rij viel nog best mee in 
               vergelijking met wat Jessie mij gestuurd had, dus dat was helemaal top. Na eindelijk vooraan 
               te staan in de rij, krijgen we hier het leuke voorval dat jij als enige niet binnen komt,
               want de club is te vol. Ik heb daar nog op je staan wachten, want vond het toch wel zielig 
@@ -99,7 +105,7 @@ const TimelinePage: React.FC = () => {
               richting de club en komen Belle onderweg tegen, om vervolgens weer terug te gaan naar 
               het hostel en ons bankje weer te claimen. Na hele leuke gesprekken, gaan we maar lekker slapen 
               want het was inmiddels al 5 uur geweest. Je bericht me nog op instagram met een 'slaap lekker :))', wat ik in de ochtend 
-              met veel plezier las :). Toendertijd kende ik je natuurlijk nog helemaal niet goed, maar je hebt 
+              met veel plezier las :). Toendertijd kende ik je natuurlijk nog helemaal niet en al je vrienden, maar je hebt 
               Morris nog een aantal leuke appjes gestuurd wat ik echt heel lief vind om dit achteraf 
               te lezen:
             </p>
@@ -116,7 +122,13 @@ const TimelinePage: React.FC = () => {
               een beetje nerveus was, maar ik
               probeerde het gewoon gezellig te houden. In de avond hebben we leuke spelletjes gespeeld
               met een aantal anderen, en toen vond ik het leuk dat je lekker mee dronk met de vodka
-              zonder dat veel anderen dit ook deden (oeps voor later). Wij waren denk ik beide inmiddels 
+              zonder dat veel anderen dit ook deden (oeps voor later).
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20221128-WA0025.jpg"} />
+            </div>
+            <p>
+              Wij waren denk ik beide inmiddels 
               al wel aardig aangeschoten en het leek er niet op alsof de avond
               nog heel evenementvol zou worden, maar uiteindelijk zijn we toch naar een bar geweest. 
             </p>
@@ -168,8 +180,9 @@ const TimelinePage: React.FC = () => {
               ik mijn spullen nog heb ingepakt, was het tijd om afscheid te nemen. Een goeie afscheidsknuffel,
               dat meer voelde als een 'tot later' dan een 'vaarwel' ;).
 
-              Onderweg naar het vliegveld stuur jij mij nog het beruchte lijstje van de nacht daarvoor, 
-              en praten we nog eventjes over het feit dat ik misschien wel per ongeluk een sok van jou 
+              Onderweg naar het vliegveld stuur jij mij nog het beruchte lijstje van de nacht daarvoor, wat blijkbaar 
+              al de tweede iteratie was want het duurde te lang hahah. We praten nog eventjes over het feit dat ik
+              misschien wel per ongeluk een sok van jou 
               heb meegenomen in mijn tas. Daarna vraag ik je heel subtiel of je me nog foto's/video's 
               wilt sturen van het weekend, en geef ik je mijn nummer zodat je dat via WhatsApp kunt doen :))
             </p>
@@ -588,7 +601,8 @@ const TimelinePage: React.FC = () => {
               toen jij mij vertelde dat je nog iets voor me had: een wegwerpcamera en een heel lief 
               kaartje :). Na het kaartje gelezen te hebben, vroeg jij mij of jij mij nu ook officieel je
               vriend(je) mag noemen, waarop ik natuurlijk ja antwoordde :)). Ik heb je daarna naar 
-              het station gebracht, waarna jij wederom richting Bunnik ging, maar deze keer met een relatie :)
+              het station gebracht waarna jij wederom richting Bunnik ging, maar deze keer zonder single 
+              te zijn :)
             </p>
           </VerticalTimelineElement>
 
@@ -825,16 +839,16 @@ const TimelinePage: React.FC = () => {
             contentArrowStyle={{ borderRight: '7px solid  #a86cd4' }}
             date="24 - 26 maart 2022"
             iconStyle={{ background: '#a86cd4', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            icon={<Explore />}
           >
             <h3 className="vertical-timeline-element-title">Weekendje Eindhoven!</h3>
-            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
+            <h4 className="vertical-timeline-element-subtitle">+ Den Bosch</h4>
             <p>
               Na een lang 5-daags werkweekje was het weer tijd om richting het zuiden 
               te gaann. Na werk op de vrijdag, nam ik de trein van 18:48 om vervolgens 
-              rond 21:00 bij jullie te arriveren. Na nog geen 5 minuten binnen te zijn
-              geweest, stapten we alweer de auto in om verder rijden naar Eindhoven/Riethoven. 
-              En dan na een uurtje rijden komen wij rond 22:00 aan bij het huis van Brenda en Armand.
+              rond 21:00 op Utrecht Centraal te arriveren. Hier sta jij mij al op te wachten met de auto,
+              en we rijden gezamenlijk verder naar Eindhoven/Riethoven. 
+              Na een uurtje rijden komen wij rond 22:00 aan bij het huis van Brenda en Armand.
               Hier ontmoet ik niet alleen je oom, tante, neefjes en nichtje, maar ook je opa en
               oma waren aanwezig. Het Nederlands elftal was aan het spelen, en na wat gekletst
               en wat thee/water gedronken te hebben gingen we lekker naar ons eigen plekje 
@@ -878,22 +892,77 @@ const TimelinePage: React.FC = () => {
               <img src={"/RoaJuul/images/Snapchat-1805541759.jpg"} />
             </div>
             <p>
-              De volgende ochtend
+              De volgende ochtend hebben we eerst rustig aan gedaan, een lekker ontbijtje 
+              gegeten en bedacht wat ons volgende plan zou zijn. Rond 12 uur nemen we afscheid 
+              van iedereen en vertrekken we richting Rosmalen. We stoppen onderweg nog om de 
+              auto op te laden, dus we hadden tijd om nog wat leuke selfies te maken (daar kunnen 
+              nooit genoeg van zijn).
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230326-WA0038.jpg"} />
+            </div>
+            <p>
+              Eenmaal aangekomen in Rosmalen stapten we op de trein naar Den Bosch, om er nog 
+              een leeeeuke dag van te maken. We haalden wat te lunchen bij de Jumbo en liepen door 
+              richting het centrum. Ik was nog nooit in Den Bosch geweest en had ook echt geen 
+              idee wat er allemaal te doen was, dus volgens mij hebben we even gegoogled wat onze 
+              opties waren voor de dag. Het regende natuurlijk wel weer zoals altijd met ons hahah, 
+              maar gelukkig hadden we capuchons :)
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Snapchat-768988888.jpg"} />
+            </div>
+            <p>
+              We zijn een kerk binnen geweest en hebben daarna een lekker drankje gedaan bij 
+              Café In De Kleine Werelt. Toen kwam jij met een term waar ik nog nooit van gehoord 
+              had: de Bossche Bol. Dit bleek de lokale specialiteit te zijn, dus moesten we die 
+              natuurlijk nog wel even halen. Dus met zo min mogelijk proberen te knoeien
+              snacken wij de bol op, maar dit ging niet helemaal zo soepel als gehoopt hahah. 
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230326_152824.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230326-WA0035.jpg"} />
+            </div>
+            <p>
+              Na het dagje in Den Bosch te zijn geweest, besloten we om de trein rond 18:15 
+              terug te nemen naar Rosmalen om daar lekker gemakkelijk een pizzaatje af te halen.
+              We hadden de auto geparkeerd op een een parkeerplaats, maar dat was nou niet de 
+              leukste plek om te gaan eten dus zochten we nog een leuk bos dichtbij. Het was even 
+              zoeken, maar we vonden een goed afgelegen plekje om lekker onze pizza's op te peuzelen.
+              Ik denk dat de pizza's een soort speciaal ingrediënt hadden ofzo, want het werd daarna
+              alleen maar gezelliger en gezelliger (woepsie) :). Om 21:00 hebben we het wel gezien in Rosmalen, 
+              en rijden we weer richting Utrecht. Hier zet jij me af bij het station en moesten we er 
+              weeeer aan geloven dat we elkaar de midweek niet gingen zien :((
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="26 maart 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            contentStyle={{ background: '#fc287a', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #fc287a' }}
+            date="27 maart 2022"
+            iconStyle={{ background: '#fc287a', color: '#fff' }}
+            icon={<PregnantWoman />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">De zwangerschapstest</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Het was de maandag na het weekend en je had me verteld dat je al 
+              6 dagen te laat was met je ongesteldheid, dus had je besloten toch maar 
+              een zwangerschapstest te gaan doen. Ik zat mooi op werk terwijl jij de 
+              test haalde bij de winkel. Jij zegt nog mooi even 'Ik ben altijd heel 
+              regelmatig ongesteld dus het is wel vaag' om de druk nog even op te voeren hahah.
+              Dus jij doet die test en toch wel een beetje stress schoot er in tijdens het 
+              wachten. Jij had inmiddels al 2 minuten niet meer gereageerd, waarna je mij 
+              een leuke foto stuurde van de uitslag:
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230327-WA0014.jpg"} />
+            </div>
+            <p>
+              Pfieuwww, nog geen kleine Sofia :()
             </p>
           </VerticalTimelineElement>
 
@@ -905,10 +974,13 @@ const TimelinePage: React.FC = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Juul weer naar Gro</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              In de midweek heb jij nog pull-ups gedaan met Mirre, heb ik eigenlijk 
+              alleen maar gewerkt en had jij je laatste werkdag voor je reis! En toen 
+              was het alweer weekend, waarin jij weer gezelligggg richting Groningen kwam.
+              
             </p>
           </VerticalTimelineElement>
 
