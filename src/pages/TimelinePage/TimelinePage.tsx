@@ -15,7 +15,7 @@ import CoffeeRoundedIcon from '@mui/icons-material/CoffeeRounded';
 import SportsBarIcon from '@mui/icons-material/SportsBar';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
-import { BrunchDining, Cake, Explore, GroupWork, LocationCity, Minimize, PregnantWoman, Restaurant } from '@mui/icons-material';
+import { BrunchDining, Cake, Explore, GroupWork, LocalBar, LocationCity, Minimize, PregnantWoman, Restaurant } from '@mui/icons-material';
 
 // interface HomePageProps {
 //     path: string;
@@ -748,10 +748,10 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: '#6bbdd6', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  #6bbdd6' }}
+            contentStyle={{ background: '#338dc4', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #338dc4' }}
             date="18 maart 2022"
-            iconStyle={{ background: '#6bbdd6', color: '#fff' }}
+            iconStyle={{ background: '#338dc4', color: '#fff' }}
             icon={<BrunchDining />}
           >
             <h3 className="vertical-timeline-element-title">Leiden!</h3>
@@ -968,19 +968,20 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#ed9940', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #ed9940' }}
             date="31 maart 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            iconStyle={{ background: '#ed9940', color: '#fff' }}
+            icon={<LocalBar />}
           >
-            <h3 className="vertical-timeline-element-title">Juul weer naar Gro</h3>
+            <h3 className="vertical-timeline-element-title">Stappen in Groningen!!</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              In de midweek heb jij nog pull-ups gedaan met Mirre, heb ik eigenlijk 
+              Doordeweeks heb jij nog pull-ups gedaan met Mirre, heb ik eigenlijk 
               alleen maar gewerkt en had jij je laatste werkdag voor je reis! En toen 
               was het alweer weekend, waarin jij weer gezelligggg richting Groningen kwam.
-              
+              We hadden afgesproken op stap te gaan met Savannah, dus was dat het plan 
+              van de avond. 
             </p>
           </VerticalTimelineElement>
 
