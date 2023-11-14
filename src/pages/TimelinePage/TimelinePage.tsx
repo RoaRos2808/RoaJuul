@@ -970,37 +970,83 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ed9940', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ed9940' }}
-            date="31 maart 2022"
+            date="31 maart - 2 april 2022"
             iconStyle={{ background: '#ed9940', color: '#fff' }}
             icon={<LocalBar />}
           >
-            <h3 className="vertical-timeline-element-title">Stappen in Groningen!!</h3>
+            <h3 className="vertical-timeline-element-title">Op stap in Groningen!!</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
               Doordeweeks heb jij nog pull-ups gedaan met Mirre, heb ik eigenlijk 
               alleen maar gewerkt en had jij je laatste werkdag voor je reis! En toen 
               was het alweer weekend, waarin jij weer gezelligggg richting Groningen kwam.
-              We hadden afgesproken op stap te gaan met Savannah, dus was dat het plan 
-              van de avond. 
+              We hadden ergens in de afgelopen weken het eens gehad over op stap gaan in Groningen,
+              en jij vroeg mij dus of je nog stapkleding mee moest nemen. Ik had nog niet helemaal 
+              besloten wat de plannen zouden worden, maar toen ik had besloten om samen met Sav te 
+              gaan eten zat het stappen er heel dik in hahah. Rond half 7 nam jij de trein en stond ik 
+              je twee uurtjes later weer op te wachten in de regen :). Met jou achterop, fietsen we 
+              weer richting huis waar de drankjes en snackies al klaar stonden. We hadden wat Amaretto 
+              natuurlijk, en de Bacardi was ook zeker niet vol mee aan het einde van de avond. Perudo 
+              kon ook zekerss niet missen op de avond (was dit de eerste keer dat we perudo speelden ???, 
+              ik denk haast van wel).
             </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="2 april 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/bereal-2023-03-31-1200.jpeg"} />
+            </div>
             <p>
-              ondertekst
+              Samen met Sander en Sav werd het later en later, waarna we met z'n
+              drieën ons klaar maakten om richting de clubs te gaan. Er zat oprecht al wel veel in geloof ik,
+              want ik kan me echt niet meer veel herinneren. We zijn in ieder geval bij Shooters binnen geweest,
+              waarschijnlijk Het Feest en Golden Fust ook sowieso wel en Klein Amsterdam herinner ik me ook nog 
+              vaag. Op het moment dat Sav naar de wc ging, gingen wij nog eventjes los en daarna zijn we 
+              ook weer rond kwart over 4 's nachts naar huis gegaan. Alhoewel ik me niet heel veel meer 
+              herinner, heb ik wel in mijn hoofd dat het echt een hele gezellige avond was en we hadden 
+              ook best laat gemaakt dus hebben we ook genoeg dingen gedaan. Toen we thuis aankwamen, herinner 
+              ik me nog dat jij al helemaal in dromenland was toen ik terug kwam van het tandenpoetsen. 
+              Ik vond dat wel heel schattig hahah. We hebben heel lang geslapen en waren ook wel een beetje 
+              brak. Dit betekende dan ook dat we ons bed niet uit kwamen.
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230403-WA0000.jpg"} />
+            </div>
+            <p>
+              We bleven niet zo maar eventjes in
+              bed liggen, maar volgens mij kwam we er echt pas rond 16:00 uit. Heel veel geklets en geknuffel en 
+              ge-, het was in ieder geval suuuper gezellig. Het was uiteindelijk wel tijd om het bed uit te gaan,
+              maar veel hebben we niet gedaan. Het was dan ook alweer bijna etenstijd, dus zijn we boodschappen gaan 
+              doen en hebben we samen wat lekkere pasta gekookt. 
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/bereal-2023-04-01-1200.jpeg"} />
+            </div>
+            <p>
+              Geen idee meer wat we in de avond gedaan hebben, maar ik denk maar even een lekker rondje gelopen want 
+              dat is natuurlijk altijd een goeie. De volgende dag hebben we maar wel even wat actiefs gedaan en 
+              zijn we voor het eerst samen naar de sportschool geweest! Volgens mij hebben we besloten om die dag 
+              de beentjes te gaan trainen, en dat ging best wel lekker. Ook dit moeten we binnenkort weer een keertje 
+              doen, vind het wel een leuke activiteit om samen te doen. Thuis hebben we samen lekker gedoucht en daarna 
+              zijn we weer wat gaan wandelen. Ook heb ik op deze dag dat armbandje aan de boom gehangen, want dat 
+              was de bedoeling voor goed geluk. 's Avonds hebben we weer bij Magoya gegeten, maar ik denk dat we hier 
+              oprecht de lelijkste foto's van elkaar hebben gemaakt:
+            </p>
+            <div className={styles.two_images}>
+              <img src={"/RoaJuul/images/IMG-20230403-WA0004.jpg"} />
+              <img src={"/RoaJuul/images/20230402_183222.jpg"} />
+            </div>
+            <p>
+              Ik quote jou: 'Wat een afschuwelijke foto's. Die had je wel voor jezelf mogen houden.' hahah. Mijn moeder 
+              vond het ook weer heel leuk trouwens:
             </p>
             <div className={styles.one_image}>
               <img src={"/RoaJuul/images/Screenshot_20231108-224147_WhatsApp.jpg"} />
             </div>
+            <p>
+              Toen 
+              kwam de vraag of jij naar huis wilde gaan, of nog een nachtje bleef slapen. Uiteindelijk ben je toch 
+              nog een nachtje blijven slapen want ja, binnenkort kan dat allemaal 4 maanden lang niet meer. 's Ochtends 
+              breng ik jou naar het station en fiets ik door naar werk, en was het nog een weekje tot het laatste weekend
+              dat we elkaar konden zien voor jouw vertrek :'(
+            </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
