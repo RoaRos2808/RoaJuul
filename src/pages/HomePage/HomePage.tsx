@@ -18,7 +18,7 @@ const HomePage: React.FC = () => {
             <div>
               <p>
                 Het is inmiddels een jaar geleden dat wij elkaar ontmoet hebben, en dit
-                bracht mij op het idee om een website te maken met onze leukste herinneringen!
+                bracht mij op het idee om een app te maken met onze leukste herinneringen!
                 In de timeline heb ik al onze leuke datums op chronologische volgorde gezet, met 
                 kleine verhaaltjes vanuit mijn perspectief :)
               </p>

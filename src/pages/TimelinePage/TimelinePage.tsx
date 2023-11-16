@@ -15,7 +15,7 @@ import CoffeeRoundedIcon from '@mui/icons-material/CoffeeRounded';
 import SportsBarIcon from '@mui/icons-material/SportsBar';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
-import { BrunchDining, Cake, Explore, GroupWork, LocalBar, LocationCity, Minimize, PregnantWoman, Restaurant } from '@mui/icons-material';
+import { Abc, BrunchDining, Cake, Explore, GroupWork, LocalAirport, LocalBar, LocationCity, Luggage, Minimize, PregnantWoman, Restaurant, School } from '@mui/icons-material';
 
 // interface HomePageProps {
 //     path: string;
@@ -1051,69 +1051,172 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="8 april 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            contentStyle={{ background: '#2da852', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #2da852' }}
+            date="7 - 9 april 2022"
+            iconStyle={{ background: '#2da852', color: '#fff' }}
+            icon={<Luggage />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Laatste weekendjeee :(</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              De week was voorbij, wat betekende dat ik voor de laatste keer in een langeeee tijd de trein 
+              heb genomen van Groningen naar Bunnik. Mijn trein kwam om 21:21 aan in Bunnik, waar jij mij op zou staan
+              te wachten. Je was alleen bijna te laat, dus moest je nog even een sprintje trekken om het te halen hahah. 
+              Deze avond was ik namelijk niet de enige gast, ook Mirre, Anne, Frannie en Nina waren er. Ik had Mirre en
+              Frannie nog niet ontmoet, dus dat was ook wel heel leuk. Ik moest nog raden welk uitgetrokken haar van jou 
+              was en we hebben nog boom-it gedaan (oja en die vieze voeten die ik aan jou gaf was natuurlijk niet serieusss hahah). 
+              Zo heel lang bleven ze allemaal niet, dus na ongeveer een uurtje zijn wij de auto ingestapt om 
+              3 van de 4 meiden naar huis te brengen. We hebben nog wat Mooi Wark aangezet in de auto en jij hebt 
+              afscheid genomen van iedereen, omdat ze jou natuurlijk niet meer gingen zien voor jouw vertrek. Eenmaal 
+              terug thuis, zijn we lekker naar bedje gegaan. 
+            </p>
+            <p>
+              In de ochtend hebben we eerst lekker gechilld en daarna zijn we met de fiets naar Mille's hockeywedstrijd 
+              gegaan. Het was echt perfect weer, het zonnetje scheen met nog een beetje kou er af en toe bij. Ik vond dit ook 
+              echt heel erg leuk, het deed me denken aan vroeger bij de voetbalwedstrijden van mij en vond het fijn om weer even 
+              dat gezinsgevoel te hebben. Ze wisten helaas niet te winnen, maar wij konden daarna nog wel eventjes een balletje slaan. Ik 
+              bakte er uiteraard niet heel veel van en jij moest even laten zien wat jij allemaal kon hahah. Ik vond dit echt 
+              heel leuk, hoe weinig ik er ook van kon. Een kleine 10 minuten later zijn we weer terug gegaan, want in de middag 
+              zouden we een high tea hebben die je moeder had gekregen voor haar verjaardag(?). Dus rond een uurtje of 14, zijn we met 
+              z'n allen de auto ingestapt richting Kekerdom waar we de high tea zouden hebben. In de auto ben ik nog uitgelachen dat 
+              ik niet snapte hoe ik een Rubiks cube moest oplossen (stom) en hebben we nog veel fotootjes gemaakt. Hier zaten ook heeele lelijke
+              tussen maar ik ben bang dat je me gaat kietelen als ik die hier in stop hahah.
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230409-WA0021.jpg"} />
+            </div>
+            <p>
+              De rit was wel anderhalf uur en toen realiseerden we in de auto alleen veel te laat dat het plekje aan de andere kant van de Waal was.
+              Omrijden duurde nog minimaal een half uur, maar het zou ook 
+              al gaan sluiten om 17. Het had dus weinig zin om nog heen te gaan, dus zijn we naar een ander plekje gegaan. 
+              Bij de Bleekdalhoeve in Renkum hebben we heerlijk een borrelplankje gegeten en wat gedronken. Oooook hebben we 
+              hier weer zo'n foto genomen met die wegwerpcamera. Ik moet dit nu echt vaker er bij pakken zodat we hem ook eens vol 
+              maken, ik wil de foto's wel graag zien namelijk :)). Rond half 6 waren we weer terug in Bunnik en hebben we waarschijnlijk 
+              wat later avond gegeten. Wij hebben ook nog een ijsje gehaald met z'n tweeën als ik het me goed herinner en daar heb je ook 
+              de eigenaren(?) nog even gezien van de ijssalon. Ik denk niet dat we nog heel veel bijzonders gedaan hebben deze avond, misschien 
+              dat we Codenames gespeeld hebben en gewoon gerelaxed hebben. Misschien hebben we wel heel veel geknuffeld nu het nog kon :). Rond half 
+              12 gingen we naar bed en hebben we nog de welbekende spiegelselfies gemaakt. 
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230408_232523.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230408_232501 (1).jpg"} />
+            </div>
+            <p>
+              En dan was het alweer de volgende ochtend, de ochtend dat jij ging vertrekken richting Sri Lanka!
+              Het was alleen ook Pasen, dus hadden we eerst een heerlijk paasontbijtje met jouw gezin.
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230409-WA0015.jpg"} />
+            </div>
+            <p>
+              Jij hebt nog de laatste dingetje bij elkaar gepakt en we hebben nog even heel veel knuffeltjes gegeven. En toen was het 
+              tijd om naar het station te lopen! Na eventjes wachten kwam ook Noor met haar gezin er aan. En wat bleek nou,
+              jij was je paspoort vergeten hahaha. Echt heel heel dom als je dit te laat had herinnerd, maar het kwam wel goeed 
+              want je moeder was nog heel snel op en neer gefietst. Hier hebben wij ook nog even een fotootje gemaakt, die je ook 
+              op je insta gezet had (insta official!!! hahah).
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230411-WA0013.jpg"} />
+            </div>
+            <p>
+              En toen kwam de trein, dus namen jullie afscheid van iedereen en gingen we onderweg naar Utrecht Centraal. Hier kwam Sam 
+              ook nog even om je uit te zwaaien. Ik had Sam nog nooit eerder gezien, maar ik was op het moment ook niet helemaal 
+              sociaal bezig dus voelde het een beetje kort en niet heel diepgaand. Die moet ik binnenkort ook nog maar eens een keertje 
+              zien, lijkt me wel heel leuk. Ze ging weer door en het duurde inmiddels ook niet zo heel lang meer voordat jullie volgende trein ging. 
+              Toen was het tijd voor de allerallerlaatste knuffels, en tijd om gedag te zeggen. Op het moment vond ik het ook nieteens 
+              zo heel lastig ik had denk ik niet helemaal het besef dat het echt heel heel lang zou zijn, maar nu terugdenkend vind ik 
+              het bijna emotioneler dan toen hahah (kleine traantjes hierooo oepsie). 4 maanden was ook wel echt heel lang en ik hoop niet dat 
+              we ooit nog eens zo lang elkaar fysiek niet zien. 
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230409_111558.jpg"} />
+            </div>
+            <p>
+              En daar gingen jullie dan, maar natuurlijk wel op een heeele gave reis :))
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="9 april 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            contentStyle={{ background: '#575757', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #575757' }}
+            date=" "
+            iconStyle={{ background: '#575757', color: '#fff' }}
+            icon={<Abc />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Intermezzo</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              We hebben in de tijd dat we op reis waren natuurlijk zooo veel geappt en ik denk dat ik alleen 
+              maar verliefder ben geworden ookal zagen we elkaar niet. Ik heb niet de tijd om alles te researchen nu want tentamens en 
+              we zijn ook veel te veel samen dat ik deze verhaaltjes amper af kan maken hahaha. Ik heb een paar highlights toegevoegd, 
+              maar als je me later wilt helpen met de leuke videogesprekken en appjes die wij hebben gehad zou ik dat heel leuk vinden om 
+              deze hier nog in te zetten :)
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#3189f5', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #3189f5' }}
             date="27 april 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            iconStyle={{ background: '#3189f5', color: '#fff' }}
+            icon={<School />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Delft??</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Jij had je natuurlijk ingeschreven voor de Universiteit van Twente en de TU Delft, maar het duurde even voordat 
+              je de uitslag kreeg of je bij de studies binnen was. Je was al relatief snel binnen bij Twente, dus dat was al heel fijn 
+              om in ieder geval al zeker te weten. En toen op 15 april kreeg jij het bericht dat je plek 117 had voor 
+              KT in Delft, wat veel hoger was dan je had verwacht! Maarja je was natuurlijk nog niet binnen, want er mochten maar 
+              100 mensen binnen. Dus na een kleine 2 weekjes waarin we hier niks over gehoord hebben, krijg ik ineens het volgende 
+              toegestuurd gekregen:
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Screenshot_20231116-112016_WhatsApp.jpg"} />
+            </div>
+            <p>
+              Ik was mooi een vlaggenquiz aan het doen met Anne en Sander op de bank, en zag mijn telefoon niet over gaan. 
+              3 minuutjes later zie ik ineens deze appjes en ik denk oh nee wat is er. Dus ik bel terug en daar kom je met het 
+              nieuws dat je ook bij Delft binnen bent :)). Ik had de keuze al een tijd geleden gemaakt om naar Delft te gaan, wat 
+              nu betekende dat we in dezelfde stad zouden gaan wonen en studeren :)). Helemaal happy happyyy
+            </p>
+            <p>
+              Klein tussendoortje hahah. Ik maakte net tijdens het schrijven van dit verhaaltje per ongeluk een BeReal hiervan en jij 
+              hebt je BeReal ook echt net gemaakt. Hoop niet dat je dit hebt gezien :)
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#e87838', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #e87838' }}
             date="5 mei 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            iconStyle={{ background: '#e87838', color: '#fff' }}
+            icon={<LocalAirport />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Sharjah Airport knuffelssss</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Op 4 mei was het zo ver: ik ging ook eindelijk op reisss! Mijn reis begon in Dubai en ik weet nou niet of 
+              dit compleet geluk was, maar jullie overstap van Sri Lanka naar Kenya was op exact hetzelfde vliegveld en ook op exact dezelfde dag 
+              dat ik aan zou komen. Dus na mijn overstap in Istanbul, kwam ik om 06:15 aan op Sharjah Airport, waar jij samen met 
+              Noor al de nacht verbleef. We stonden natuurlijk beide te wachten op een heeeele lange knuffel. Jij stond helemaal in spanning te wachten 
+              bij de verkeerde aankomstplek hahah, maar toen zagen we elkaar nadat jij mij verteld had dat je bij gate 5 stond. En daar was 
+              dan ook de heeeeerlijke knuffel :)). We zijn even op stoeltjes gaan zitten, maar zijn al snel weer opgestaan 
+              om naar jullie hotelkamer te gaan. Hier hebben we nog een half uur lekker samen kunnen liggen en knuffelen, wat toch weer 
+              even heel heel erg fijn was. Nu was het dan echt het moment om elkaar 3 maanden niet te kunnen zien. Voordat we afscheid namen van elkaar,
+              had je nog een kaartje in mijn tas gedaan die ik moest lezen nadat ik de douane door was. Mijn tas was al van de baggageband afgehaald, 
+              maar lag er gelukkig nog wel en toen heb ik buiten het kaartje gelezen. We konden nog eventjes appen, waarna ik de bus nam en geen 
+              internet meer had en jullie je overstap gingen halen. Je appte me nog dat het jou toch nog wel wat zwaarder viel dan je had 
+              gedacht, want 3 maanden was echt wel heel langgg. Maar dit zou allemaal goed komen, en we hebben beide genoten van levenservaringen 
+              die we niet gemist zouden willen hebben :)
             </p>
           </VerticalTimelineElement>
-
-
-
-          {/* :( */}
-          
-
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -1123,8 +1226,8 @@ const TimelinePage: React.FC = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">De terugkomst van Roan</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
               ondertekst
             </p>
