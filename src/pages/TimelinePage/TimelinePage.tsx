@@ -15,7 +15,7 @@ import CoffeeRoundedIcon from '@mui/icons-material/CoffeeRounded';
 import SportsBarIcon from '@mui/icons-material/SportsBar';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
-import { Abc, BrunchDining, Cake, Explore, GroupWork, LocalAirport, LocalBar, LocationCity, Luggage, Minimize, PregnantWoman, Restaurant, School } from '@mui/icons-material';
+import { Abc, Apartment, BrunchDining, Cake, Explore, FlightLand, GroupWork, LocalAirport, LocalBar, LocationCity, Luggage, Minimize, PregnantWoman, Restaurant, School } from '@mui/icons-material';
 
 // interface HomePageProps {
 //     path: string;
@@ -1220,31 +1220,127 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="2 augustus 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            contentStyle={{ background: '#32a88b', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #32a88b' }}
+            date="2 - 3 augustus 2022"
+            iconStyle={{ background: '#32a88b', color: '#fff' }}
+            icon={<FlightLand />}
           >
             <h3 className="vertical-timeline-element-title">De terugkomst van Roan</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Na een heeeeele lange 3 maanden zonder elkaar gezien te hebben (maar wel heeel veel geappt en gebeld),
+              was daar het dan eindelijk het moment waar we zo lang op gewacht hadden: ik kwam terug van mijn reis :)). 
+              Na een goede 7 uur van Bangkok naar Qatar, was daar dan uiteindelijk de allerlaatste vlucht richting Amsterdam. 
+              Na weer 7 uurtjes gevlogen te hebben kom ik dan weer aan in Nederlanddd, waar jij samen met Sav en mijn vader 
+              mij op staan te wachten bij de aankomsthal :)). Het was ook de eerste keer dat je mijn vader ontmoet had, wat 
+              natuurlijk ook leuk was. Ik zag jullie al mooi door de raampjes gluren of jullie mij al konden zien, want jullie 
+              stonden natuurlijk ook al bij de goeie bagageband. Ik spotte jullie wel al heel snel, dus ik vond het ook veel 
+              te leuk om jullie eventjes te bespioneren hahah. Ik vond het ook niet leuk om een beetje bij het raam te gaan staan 
+              als ik jullie niet kon spreken, dus verstopte me ik zo lang mogelijk zodat ik jullie wel kon zien (ik ben echt heel 
+              kinderachtig hahah maar dit vind ik veel te leuk). Na een tijdje spotten jullie me dan eindelijkk.
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230802_150708.jpg"} />
+            </div>
+            <p>
+              Ik moest nog eventjes wachten op mijn tas en toen die er aan kwam, was het tijd om richting jullie te lopen :). 
+              Hier was dan ook de heeeele goeie en lang verwachte terugkomst knuffel :)) (en een llk'tje). Jullie hadden een Hello 
+              Kitty helium ballon voor mij gekocht, dus die hebben jullie mooi aan mijn tas gestrikt en zo zijn we (hand in hand natuurlijkkk) 
+              teruggelopen naar de auto. Ook de BeReal kwam echt op het perfecte moment.  
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230802-WA0139.jpg"} />
+            </div>
+            <p>
+              Ik had wel een lange reis achter de boeg, dus heb tijdens het rijden lekker op je benen gelegen en ik kreeg 
+              ook een heerlijke hoofdmassage (thankyouuu). Dit was ook je eerste keer in De Wilp, wat ik ook heel leuk vond 
+              want dit was waar ik opgegroeid ben en om jou hier te hebben voelde dan ook heel speciaal. Ik heb echt oprecht geen idee 
+              meer hoe de rest van die dag verliep. 's Avonds sliepen wij in de studio, waar we gewoon fijn met z'n tweetjes waren 
+              en elkaar heel heel veel knuffels gaven (en andere dingetjes). Ook hebben we nog een paar bedselfies gemaakt want foto's 
+              van ons samen waren wel echt weer nodig na al die maanden naar dezelfde foto's kijken :)
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230803-WA0046.jpg"} />
+            </div>
+            <p>
+              Na een heerlijk nachtje slapen en weer lekker samen zijn worden we de volgende ochtend weer wakker, maar het 
+              bed zijn we zeker niet snel uit gekomen (woepsieee). Ik durf niet te zeggen hoe lang we nog hebben gelegen, 
+              maar toen we ons bed uitkwamen konden we haast al wel gaan lunchen volgens mij. Maar ook toen konden we ons natuurlijk 
+              niet weerhouden van het maken van leuke fotootjesss :): 
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230803_113049.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230803_113200.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230803-WA0056.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230803-WA0057.jpg"} />
+            </div>
+            <p>
+              We gaan eindelijk de studio uit en nemen wat brood als ontbijt, waarna het tijd was voor mij 
+              om jou een hele tour te geven door De Wilp :). De route was niet heel denderend op zichzelf, maar 
+              ik vond het heel leuk om je alles te laten zien van mijn jeugd en alle goeie herinneringen die ik op 
+              deze plekken heb overgehouden. 
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Schermafbeelding 2023-11-20 000524.png"} />
+            </div>
+            <p>
+              Eenmaal terug hebben we weer een spelletje gedaan (klootzakken denk ik), en hebben we een beetje op de 
+              bank gehangen. Aan het einde van de middag hadden we het goede idee om nog langs mijn oma te gaan. Ik vond 
+              het leuk dat je die ook gezien hebt, het voelt toch wel echt leuk dat je mijn familie beetje bij beetje 
+              leert kennen :). Volgens mij hebben we een lekker pizzaatje gehaald en zijn we ook weer 's avonds een beetje 
+              op tijd naar de studio gegaan. Dat was dan alweer ons tweede dagje weer lekker samen :)
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="4 augustus 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            contentStyle={{ background: '#248ad4', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid #248ad4' }}
+            date="4 - 5 augustus 2022"
+            iconStyle={{ background: '#248ad4', color: '#fff' }}
+            icon={<Apartment />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Groningennn</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Na het tweede nachtje in de studio, stond er vandaag op de planning dat we naar mijn moeder gaan :)). 
+              Dus rond 11:30 werden wij naar Leek gebracht, waar mijn moeder ons al op zat te wachten in haar chalet. 
+              Ik wee techt niet meer wat we gedaan hebben hahah, volgens mij zijn we naar de Jumbo geweest om even lunch 
+              te halen. Rond een uurtje of 14 reden we door naar Groningen, waar we het nieuwe huisje van mijn moeder 
+              kregen te zien (was ook nieuw voor mij). Sav kwam hier ook naartoe en volgens mij hebben we vooral even op de 
+              bank gechilld. Ik geloof ook dat we weer spelletjes hebben gespeeld en ik was ook nog in slaap gevallen, 
+              omdat ik toch best wel moe was hahah.
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Screenshot_20230804-184320_BeReal.jpg"} />
+            </div>
+            <p>
+              Rond half 5 zijn we ook nog eventjes de stad in geweest, maar hebben niet echt iets gekocht. Het kan ook haast niet anders 
+              dat ik ook een eierbal heb gegeten hahah. 's Avonds hebben we een pizza gegeten (alweer haha) en hebben we nog een rondje gelopen, 
+              waarna we rond half 9 weer teruggebracht werden naar De Wilp door mijn moeder. Hier zijn we snel weer naar de studio verkast en hebben 
+              we wederom heel veel foto's gemaakt :)
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230805-WA0093.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230805-WA0098.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230805-WA0104.jpg"} />
+            </div>
+            <p>
+              De volgende ochtend was het dan tijd om gedag te zeggen (voor 1 dagje haha), want mijn vader en ik waren 
+              van plan om voor te bereiden voor het verhuizen van al mijn spullen naar Delft :). Dus rond een uurtje of 
+              13 brachten wij jou naar het station, zodat je weer richting Bunnik kon treinen want ook jij ging je spulletje 
+              verhuizen. De eerste dagjes na mijn terugkomst waren in ieder geval heel erg geslaagd :))
             </p>
           </VerticalTimelineElement>
 
@@ -1256,10 +1352,12 @@ const TimelinePage: React.FC = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">En weer naar Bunnikkk</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Op 6 augustus waren mijn vader en ik van plan naar Delft te gaan om al mijn spullen te verhuizen. Jij was op dat moment 
+              ook in Delft om je kamer aan je gezin te laten zien en ook wat spulletjes te verhuizen, dus hadden we afgesproken dat jullie mij op zouden 
+              halen zodat ik daarna mee kon gaan naar Bunnik. 
             </p>
           </VerticalTimelineElement>
 
@@ -1475,16 +1573,43 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#ae00ff', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #ae00ff' }}
             date="18 november 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            iconStyle={{ background: '#ae00ff', color: '#fff' }}
+            icon={<NightlifeIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Galaaa</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Ik had deze al klaar staan zodat ik later een tekstje erbij kon zetten, 
+              maar laten we deze avond maar snel vergeten...
+            </p>
+            <p>
+              Wel hebben we nog leuke fotootjes:
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#ff006f', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #ff006f' }}
+            date="26 november 2022"
+            iconStyle={{ background: '#ff006f', color: '#fff' }}
+            icon={<FavoriteIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">1 jaar :)</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
+            <p>
+              Je bent bij het einde gekomen van de veeeele leuke dingen die wij gedaan hebben in het eerste
+              jaar dat we elkaar kennen :). Ik kan me alleen maar verheugen op wat we allemaal nog mee zullen 
+              maken in de hopelijk heeel vele komende jaren :)). Ik zal vast nog heel veel momenten gemist hebben 
+              van het afgelopen jaar, dus als je je nog iets herinnert kunnen we dat er nog in zetten :).
+            </p>
+            <p>
+              Je bent het beste dat ik ooit in mijn leven ben tegengekomen en ik kan niet wachten op wat de 
+              toekomst voor ons in petto heeft :). Je bent leuk, lief, knap, lekker en alle positieve woorden die 
+              ik me maar kan bedenken, en ik hou heel heel heel heel veel van jouu &lt;3333333
             </p>
           </VerticalTimelineElement>
 
