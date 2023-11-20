@@ -15,7 +15,7 @@ import CoffeeRoundedIcon from '@mui/icons-material/CoffeeRounded';
 import SportsBarIcon from '@mui/icons-material/SportsBar';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
-import { Abc, Apartment, BrunchDining, Cake, Explore, FlightLand, GroupWork, LocalAirport, LocalBar, LocationCity, Luggage, Minimize, PregnantWoman, Restaurant, School } from '@mui/icons-material';
+import { Abc, Apartment, BrunchDining, Cake, Explore, FlightLand, Forest, GroupWork, LocalAirport, LocalBar, LocationCity, Luggage, Minimize, PersonPinCircle, PregnantWoman, Restaurant, School } from '@mui/icons-material';
 
 // interface HomePageProps {
 //     path: string;
@@ -1346,18 +1346,50 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="6 augustus 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            contentStyle={{ background: '#71bf0b', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #71bf0b' }}
+            date="6 - 8 augustus 2022"
+            iconStyle={{ background: '#71bf0b', color: '#fff' }}
+            icon={<PersonPinCircle />}
           >
             <h3 className="vertical-timeline-element-title">En weer naar Bunnikkk</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
               Op 6 augustus waren mijn vader en ik van plan naar Delft te gaan om al mijn spullen te verhuizen. Jij was op dat moment 
               ook in Delft om je kamer aan je gezin te laten zien en ook wat spulletjes te verhuizen, dus hadden we afgesproken dat jullie mij op zouden 
-              halen zodat ik daarna mee kon gaan naar Bunnik. 
+              halen zodat ik daarna mee kon gaan naar Bunnik. Dus na zo goed als klaar te zijn met het inrichten van mijn kamer, kom jij samen 
+              met je ouders en Mille mij ophalen. Hier hebben we ook nog even de groene onderbroekdiscussie afgesloten (ik had gelijk hahah yesssss). 
+              Mijn vader en jouw ouders ontmoeten elkaar ook voor het eerst, en daarna rijd ik gezellig 
+              met jullie mee naar jullie huis. Ik heb geen flauw idee meer wat we gedaan hebben hahaha, ik kan hier ook niks van terugvinden. 
+              Volgens mij wat spelletjes en daarna lekker naar bed, maar veel bijzonders is het niet geweest. Na een nachtje 
+              slapen hadden we bedacht de volgende dag naar Utrecht te gaan voor een dagje. Het was best een goed dagje qua temperatuur en we hebben 
+              gewoon lekker geshopt. Ik kan me niet herinneren dat we iets gekocht hebben, maar we hadden wel een leuke photobooth gevonden in de 
+              Urban Outfitters, dus hebben we daar 3 hele leuke fotootjes geknipt :)
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230807_145157.jpg"} />
+            </div>
+            <p>
+              Rond een uurtje of 16 waren we weer terug bij jou thuis. We zijn daarna met perudo naar de buren gegaan en hebben daar een spelletje 
+              gedaan met Mille en haar vriendin. Toen kwam jouw buurvrouw met de mededeling dat ze wraps gingen eten en dit stond bij ons ook op de 
+              planning, dus leek het een goed idee om samen te gaan eten. Wij zijn met z'n tweetjes naar de winkel gegaan om de benodigdheden te halen 
+              en hebben daarna ons deel van het eten gekookt. We zijn daarna weer teruggegaan en hebben daar gezamenlijk gegeten. Ik heb ook nog een video 
+              dat jij op de grond ligt als een baby hahah, en jullie wilden ook heel graag dat ik die evenwichtstest ging doen dat je op je knieën zit ofzo. 
+              's Avonds hebben we nog een rondje gelopen en hebben we nog gekeken naar onze kampeerideetjes. En toen zijn we weer lekker gaan slapen :). Ik 
+              heb wel het gevoel dat we inmiddels wel een beetje geïrriteerd aan elkaar raakten te worden en misschien waren we ook wel iets te veel samen 
+              achter elkaar op dit moment hahah. De volgende dag gingen we nog eventjes leuk picknicken, want dat hadden we nog nooit gedaan en was wel 
+              iets leuks om te gaan doen. Er scheen echt heerlijke zon, en we zijn nog eventjes klef geweest (iewww). Hier hebben we natuurlijk ook wat foto's 
+              gemaakt, maar heel charmant kijken we ook niet hahah 
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230808-WA0025.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230808-WA0026.jpg"} />
+            </div>
+            <p>
+              Rond 13:15 was het dan tijd voor mij om weer naar huis te gaan, en je weer een tijd te moeten missen door de OWee en je EJW :(. Maar het volgende 
+              op de planning was het kampeerweekendje dat je voor mijn verjaardag gaf :))
             </p>
           </VerticalTimelineElement>
 
@@ -1365,29 +1397,18 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="8 augustus 2022"
+            date="19 - 22 augustus 2022"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            icon={<Forest />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Kamperen in Wijchen</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
-            </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="19 augustus 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
-            <p>
-              ondertekst
+              Om een uurtje of 12 nemen we de trein vanaf Delft naar Bunnik, waar de vouwwagen al deels geprepareerd 
+              klaar staat. Na nog een paar laatste dingetjes te regelen en in te pakken, brengt jouw moeder ons naar 
+              Boerderij-camping Bij De 3 Linden dichtbij Wijchen. We checken in en zetten de vouwwagen op het hoekje van de 
+              camping neer, waar we mooi ons weekendje gingen verblijven. Er werd ons nog gewaarschuwd dat er naast ons plekje 
+              een of ander kinderspeelweek was ofzo, maar dit gaf juist alleen maar meer leuke sfeer rondom de camping :). 
             </p>
           </VerticalTimelineElement>
 
