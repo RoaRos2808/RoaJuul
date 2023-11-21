@@ -1651,8 +1651,13 @@ const TimelinePage: React.FC = () => {
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
               Voor mijn verjaardag had ik een 25 euro tegoedbon gekregen van jouw ouders. We hadden dus al het idee om naar de Barbie film te gaan en ik was misschien 
-              wel meer excited dan jij hahah. We konden dus heel goed de bon gebruiken en we moesten natuurlijk wel in het roze! 
+              wel meer excited dan jij hahah. We konden dus heel goed de bon gebruiken en we moesten natuurlijk wel in het roze! Dus hebben we beide ons meest roze kleding 
+              uit de kast gepakt en hebben we de roze mascara van Els geleend om zo goed mogelijk in stijl heen te gaan. Jij hebt de leukste foto's hiervoor en ik heb deze volgens mij 
+              niet, maar natuurlijk nog wel een fotootje gemaakt in de bioscoop :) 
             </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Screenshot_20231121-162512_BeReal.jpg"} />
+            </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
