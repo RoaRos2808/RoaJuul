@@ -15,7 +15,7 @@ import CoffeeRoundedIcon from '@mui/icons-material/CoffeeRounded';
 import SportsBarIcon from '@mui/icons-material/SportsBar';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
-import { Abc, Apartment, BrunchDining, Cake, Explore, FlightLand, Forest, GroupWork, LocalAirport, LocalBar, LocationCity, Luggage, Minimize, PersonPinCircle, PregnantWoman, Restaurant, School } from '@mui/icons-material';
+import { Abc, Apartment, BrunchDining, Cake, Celebration, Explore, FlightLand, Forest, Girl, GroupWork, LocalAirport, LocalBar, LocationCity, Luggage, Minimize, PersonPinCircle, PregnantWoman, Restaurant, Rowing, School } from '@mui/icons-material';
 
 // interface HomePageProps {
 //     path: string;
@@ -1395,10 +1395,10 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#088c11', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #088c11' }}
             date="19 - 22 augustus 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            iconStyle={{ background: '#088c11', color: '#fff' }}
             icon={<Forest />}
           >
             <h3 className="vertical-timeline-element-title">Kamperen in Wijchen</h3>
@@ -1406,54 +1406,252 @@ const TimelinePage: React.FC = () => {
             <p>
               Om een uurtje of 12 nemen we de trein vanaf Delft naar Bunnik, waar de vouwwagen al deels geprepareerd 
               klaar staat. Na nog een paar laatste dingetjes te regelen en in te pakken, brengt jouw moeder ons naar 
-              Boerderij-camping Bij De 3 Linden dichtbij Wijchen. We checken in en zetten de vouwwagen op het hoekje van de 
+              Boerderij-camping Bij De 3 Linden dichtbij Wijchen. Ook hadden we twee fietsen meegenomen zodat we wat mobieler waren ipv 
+              alleen maar lopen. We checken in en zetten de vouwwagen op het hoekje van de 
               camping neer, waar we mooi ons weekendje gingen verblijven. Er werd ons nog gewaarschuwd dat er naast ons plekje 
               een of ander kinderspeelweek was ofzo, maar dit gaf juist alleen maar meer leuke sfeer rondom de camping :). 
+              Samen hebben we de vouwwagen opgezet en hebben we even lekker gechilld aan ons campingtafeltje. Hier hebben we ook 
+              eerst wat spelletjes gedaan, want we moest de echte campingervaring natuurlijk hebben.
             </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="23 augustus 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230819_162216.jpg"} />
+            </div>
             <p>
-              ondertekst
+              Voor onze 6 maanden had je mij een heel lief kaartje gegeven met een kado erbij: het sexy cowboy bever t-shirt :)). Ik vind 
+              'm echt heel leuk, maar hij valt wel een beetje uit elkaar. Misschien moeten we deze ooit eens laten bedrukken want ik wil 
+              'm wel vaker dragen eigk wanneer het weer wat zonniger wordt.
+              Toen rond 16:30 zijn we naar de dichtstbijzijnde supermarkt gegaan om onze inkopen te doen voor de komende 
+              4 daagjess. Hier besloten we ook dat we in de avond ravioli gingen maken :). Om 18u hebben we dan heerlijk gegeten 
+              en daarna waren we ook al best wel uitgeput en hebben we even liggen zonnen. Jij bent best wel een sleeping beauty als 
+              je slaapt hahah.
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230819_183527.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230819_185507.jpg"} />
+            </div>
+            <p>
+              Na uitgegeten te zijn (was echt heeel lekker), zijn we de omgeving gaan verkennen.
+              We hebben een leuk klein rondje gemaakt tussen de weilandjes en bossen, waar jij ook helemaal in de slappe 
+              lach was om hoe leuk je het vond :)).
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230819_191545.jpg"} />
+            </div>
+            <p>
+              We zijn relatief snel terug gegaan want je had het best koud, dus heb jij 
+              je leuke bruine trui aangetrokken en zijn we daarna weer verder gegaan, maar de andere kant op. We hebben echt een 
+              lang rondje gemaakt en de omgeving was ook echt heel mooi. Je hebt nog een kikker geprobeerd te pakken en nog heeele 
+              leuke foto's gemaakt bij het meertje in het bos :)
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/bereal-2023-08-19-0906.png"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230822-WA0055.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230822-WA0064.jpg"} />
+            </div>
+            <p>
+              Toen we terug waren hebben we nog wat chippies gegeten en lekker gekletst en gezeten, waarna we rond een uurtje of 23 onze 
+              tanden gingen poetsen en lekker ons eerste nachtje in de vouwwagen in gingen :).
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/bereal-2023-08-19-1013.png"} />
+            </div>
+            <p>
+              De volgende ochtend hebben we lekker uitgeslapen, waarna we ons ontbijtje gegeten hebben en ik mijn sexy cowboy bever t-shirt 
+              aan heb getrokken.
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230820_111340.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230820_115646.jpg"} />
+            </div>
+            <p>
+              We hadden vandaag het plan om een dagje Nijmegen te verkennen :). Om 12:00 stappen we op de fiets naar station Wijchen, om vanaf 
+              daar de trein te nemen naar Nijmegen. We hadden wederom echt heel erg geluk met het weer, dus in het zonnetje liepen we naar het centrum 
+              waar we een paar winkeltjes in zijn gegaan. We hebben hierna een lekkere banh mi gegeten (maar niet echte banh mi :( ), en zijn doorgelopen 
+              richting de Waal, waar we eventjes gezeten hebben. Langs het stadsstrand zijn we richting de brug gelopen, waar een hele markt gaande was. Dit 
+              was echt wel leuk, het sfeertje was perfect. Onder de brug door kwamen we uit bij een lekker plekje waar we in het gras konden liggen en 
+              konden genieten van het weer (en elkaar :)). 
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230820_142511.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230820_143219.jpg"} />
+            </div>
+            <p>
+              We zijn na een goed tijdje gelegen te hebben, weer teruggelopen richting de stad waar jij mij had verteld dat er een lekkere ijssalon in de 
+              buurt was. Dit moesten we natuurlijk uittesten :). Jij met je lekker bosbes-ijsje en ik weet eerlijk gezegd niet meer wat ik had gekozen (maar 
+              ik neem aan dat het geen vanille was want dat was verboden hahah)
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230820_154952.jpg"} />
+            </div>
+            <p>
+              Met ons ijsje zijn we richting het Kronenburgerpark gelopen, waar we genoten hebben van alle nieuwe studenten die in de stad liepen. Het was namelijk 
+              de introweek van Radboud en daarom liepen er overal gekleurde shirtjes rond. Om 18:00 gaan we op zoek naar eten, want we begonnen toch 
+              wel wat honger te krijgen. We hadden wel zin in wat lekkers, maar ook wel goedkoops en toen vonden we Nibbles. Het leek heel goedkoop op de 
+              site, maar het idee van het restaurant was dat je telkens kleine hapjes bestelde en zo bleek het toch wel wat duurder te zijn dan gehoopt. Het eten 
+              dat we kregen was wel heel lekker, dus klagen mochten we niet :). We keken naar welke trein we het beste konden nemen, en toen besloten we om 
+              weer terug te gaan richting station Wijchen. Om 20:00 kwamen we aan en besloten we nog niet direct naar huis te gaan, maar nog een leuke fietsroute te vinden 
+              langs een ander park. We vonden een leuk plekje met weer een meertje, en hebben daar in de buurt onze fiets neergezet om nog een stukje te lopen. We zijn op de 
+              grond gaan zitten en hebben nog wat leuke fotootjes gemaakt :)
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230820_203444.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230822-WA0069.jpg"} />
+            </div>
+            <p>
+              We zijn daarna weer verder gefietst, waar we nog een bankje vinden om nog te chillen. Rond 21:30 arriveerden we weer terug bij de camping, om hier nog even te 
+              relaxen om de gezellige en leuke tweede dag van ons kampeertripje af te ronden :).
+            </p>
+            <p>
+              Op onze derde dag hebben we 's ochtends weer rustig aan gedaan met weer een lekker camping-ontbijtje.
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230821_102329.jpg"} />
+            </div>
+            <p>
+              Rond half 1 zijn we de fiets weer opgestapt en zijn we naar de Action en Albert Heijn geweest in Wijchen om wat kaarten, eten en dingen voor de 
+              proteus kmt te kopen voor ons dagje. Maar voordat we onze dag voortzetten, had ik nog een kapperafspraak bij Duo 4 You en hier gingen we samen heen 
+              zodat jij ook kon beoordelen hoe het er uit zag hahah. Na mijn kapsel wat te hebben laten verkort, zijn we doorgefietst naar recreatiegebied Berendonck. 
+              Ik had mijn handdoek mee (oja jij was die vergeten mee te nemen), en dus hebben we samen op mijn grote handdoek gelegen in het gras. Onze zwemkleding hadden we al aan, 
+              dus zo konden we gelijk het water in. Jij had nog wel last van je oren, dus kon ik je helaas niet het water in gooien maar er was nog genoeg om je een beetje 
+              mee te plagen :)). Ook waren er wat eenden in het water (jaa echt eenden) en ook was er een of ander feest gaande aan de andere kant van het gebied. 
+              Ik had jou persoonlijke kaarten gegeven voor onze 6 maanden, dus hebben we ook nog wat shitheads/klootzakken gespeeld (ik kan heel goed tegen mijn verlies hoor) :). 
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230821_163509.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230822-WA0080.jpg"} />
+            </div>
+            <p>
+              Om half 6 zijn we weer op de fiets gestapt richting de camping. We hadden nog genoeg over voor nog een avondje ravioli eten, dus hebben we weer lekker champies 
+              gesneden en de saus opgemaakt. Vond dit eten echt heel lekker, dit moeten we binnenkort nog maar een keertje maken. Na ons eten jij dat je nog even iets ging doen, en toen 
+              ik zag welke richting jij op liep had ik al zo'n vermoeden dat je wat lekkere aardbeien op ging halen :). In combinatie met onze chocola hebben we een heerlijk 
+              toetje gehad :).
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230821_190351.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230822-WA0085.jpg"} />
+            </div>
+            <p>
+              Na het eten hebben we Rummikub gespeeld en had ik het eindelijk een beetje onder de knie (3-2 gewonnen hihiii). Daarna hebben we een tijdje even niks gedaan om wat uit te rusten. 
+              Om 21 uur besloten we nog een rondje te gaan lopen, om onze laatste avond nog even te genieten van de mooie natuur. Het begon al een beetje te schemeren en 
+              we hadden ook een bepaald interessant idee in ons hoofd (hmmm). We gingen bij het water zitten op wat zand, waar we een leuk bankje aan de overkant zagen dus besloten 
+              we om daarheen te lopen. Veel andere bankjes waren er ook niet in dit bos te vinden, en deze had ook een prachtig uitzicht over het meertje en het bos. Hier hebben we even 
+              heel erg genoten van elkaar, iets wat ik wel heel leuk vind dat we dit gewoon gedaan hadden hahah (en werd toch beetje zenuwachtig van het risico dat er bij kwam haha). Je hebt hier 
+              nog een hele lelijke foto van mij gemaakt (deze komt niet hierin haha), waarna we richting de camping terug liepen in het pikkedonker. Er kwamen ook nog twee vrouwen langsfietsen die 
+              een beetje boos werden dat we geen lampjes hadden haha. Eenmaal terug, zijn we direct naar bed gegaan om ons laatste nachtje nog even lekker te slapen in de vouwwagen.
+              In de ochtend hebben we direct de vouwwagen weer opgevouwen en de tafel nog even laten staan om nog lekker te kunnen zitten.
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230822_121959.jpg"} />
+            </div>
+            <p>
+              Om 13:00 worden we opgehaald door je vader, waarna we gezamenlijk terugreden naar Bunnik :). Nu ik dit allemaal getypt heb, realiseer ik me dat dit weekend echt 
+              heel erg geslaagd was en ik hoop dat we binnenkort nog zo'n weekend samen kunnen hebben.
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#0d6cb5', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #0d6cb5' }}
+            date="23 - 26 augustus 2022"
+            iconStyle={{ background: '#0d6cb5', color: '#fff' }}
+            icon={<Rowing />}
+          >
+            <h3 className="vertical-timeline-element-title">KMT Proteus</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
+            <p>
+              Tijdens de OWee waren we beide na de eerste nacht binnengekomen bij Proteus :)). Het was na ons weekendje samen dan ook tijd 
+              om de kmt te hebben. We hebben elkaar niet veel gezien, maar vind het wel leuk dat we beide veel nieuwe leuke mensen ontmoet hebben 
+              waar we de komende maanden echt goede vrienden mee zijn geworden. Veel over deze halve week heb ik niet te zeggen, want zo heel leuk was het nou ook weer niet maar ik vond het 
+              wel leuk om je af en toe even in je zij te prikken.
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#ff7700', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #ff7700' }}
             date="27 augustus 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            iconStyle={{ background: '#ff7700', color: '#fff' }}
+            icon={<Celebration />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Mijn verjaardag vieren :)</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Na het KMT, zijn we beide eerst eventjes lekker naar beide ons eigen huis gegaan om ons te verfrissen. Rond 17:30 hadden we afgesproken 
+              bij Delft Campus, om ons te verkassen richting Leek. Op Rotterdam Centraal hebben we pasta gehaald bij Julia's, om daarna de lange zit naar 
+              Groningen te overleven. Op station Groningen moesten we nog een tijdje wachten om uiteindelijk dan richting Leek te kunnen gaan. We wilden nog even langs 
+              Simon en co, maar die reageerden niet dus stapten we maar op de bus. Hier kwamen nog iemand tegen van mijn middelbare, en uiteindelijk rond 20:30 komen we aan 
+              in het chalet. Mijn moeder sliep in Groningen, dus konden wij lekker samen nog een avondje zijn (met Terry natuurlijk). 
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Screenshot_20231121-155551_BeReal.jpg"} />
+            </div>
+            <p>
+              In de ochtend hebben we wat boodschapjes gedaan, omdat er 's middags wat bezoek kwam voor mijn verjaardag. Mijn moeder kwam eerst aan en toen kwam Savannah ook 
+              kort daarna. In de middag kwamen mijn oma en oom met zijn nieuwe vriendin ook nog leuk langs en samen hebben we Formule 1 gekeken. Ik heb het gevoel dat je niet per 
+              se heel veel gesproken hebt met hun, maar ik vind het wel leuk dat je een deel al ontmoet hebt. Ooit kom je ook nog alle neefjes en nichtjes te zien, denk dat dat ook wel 
+              heel leuk kan zijn.
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Screenshot_20231121-160055_BeReal.jpg"} />
+            </div>
+            <p>
+              Rond 19:00 zijn we weer richting Delft gegaan, om in de avond lekker samen te gaan slapen en te wachten tot het 00:00 was :)
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="29 augustus 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            contentStyle={{ background: '#f00010', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #f00010' }}
+            date="28 augustus 2022"
+            iconStyle={{ background: '#f00010', color: '#fff' }}
+            icon={<Cake />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Mijn verjaardaggg</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Er stond niets op de planning voor mijn verjaardag, maar het was wel fijn om in de ochtend samen met jou wakker te worden :). We zijn de stad nog even in geweest 
+              om bijvoorbeeld die prullenbak voor mij te kopen, en zijn daarna in de middag weer teruggegaan. We hadden als 
+              idee om nog wel een lekker taart te bakken, dus hebben we dat gedaan :). De taart was echt goed gelukt en ik heb er misschien iets te veel van 
+              gegeten hahah. Rond een uurtje of 16:00 ben jij volgens mij naar huis gegaan, omdat je iets anders op de planning had staan maar vond het wel 
+              leuk dat je er overdag was geweest. Het was in ieder geval een leukere verjaardag dan de afgelopen jaren :)
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20230828_153738.jpg"} />
+            </div>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#ff6efd', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #ff6efd' }}
+            date="29 augustus 2022"
+            iconStyle={{ background: '#ff6efd', color: '#fff' }}
+            icon={<Girl />}
+          >
+            <h3 className="vertical-timeline-element-title">Barbie film!</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
+            <p>
+              Voor mijn verjaardag had ik een 25 euro tegoedbon gekregen van jouw ouders. We hadden dus al het idee om naar de Barbie film te gaan en ik was misschien 
+              wel meer excited dan jij hahah. We konden dus heel goed de bon gebruiken en we moesten natuurlijk wel in het roze! 
             </p>
           </VerticalTimelineElement>
 
@@ -1465,7 +1663,7 @@ const TimelinePage: React.FC = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
+            <h3 className="vertical-timeline-element-title">Middagje Scheveningen</h3>
             <h4 className="vertical-timeline-element-subtitle">en temp</h4>
             <p>
               ondertekst
@@ -1495,7 +1693,7 @@ const TimelinePage: React.FC = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
+            <h3 className="vertical-timeline-element-title">Liquicity</h3>
             <h4 className="vertical-timeline-element-subtitle">en temp</h4>
             <p>
               ondertekst
@@ -1510,7 +1708,7 @@ const TimelinePage: React.FC = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
+            <h3 className="vertical-timeline-element-title">Ploegdate H29 x D11</h3>
             <h4 className="vertical-timeline-element-subtitle">en temp</h4>
             <p>
               ondertekst
@@ -1525,7 +1723,7 @@ const TimelinePage: React.FC = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
+            <h3 className="vertical-timeline-element-title">Trampolineparkkk</h3>
             <h4 className="vertical-timeline-element-subtitle">en temp</h4>
             <p>
               ondertekst
@@ -1540,7 +1738,7 @@ const TimelinePage: React.FC = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
+            <h3 className="vertical-timeline-element-title">Inauguratie Proteus</h3>
             <h4 className="vertical-timeline-element-subtitle">en temp</h4>
             <p>
               ondertekst
@@ -1570,7 +1768,7 @@ const TimelinePage: React.FC = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
+            <h3 className="vertical-timeline-element-title">Midsommar date</h3>
             <h4 className="vertical-timeline-element-subtitle">en temp</h4>
             <p>
               ondertekst
@@ -1585,7 +1783,7 @@ const TimelinePage: React.FC = () => {
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
+            <h3 className="vertical-timeline-element-title">Leuk dagje Groningen</h3>
             <h4 className="vertical-timeline-element-subtitle">en temp</h4>
             <p>
               ondertekst
