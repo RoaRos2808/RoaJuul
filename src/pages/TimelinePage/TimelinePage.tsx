@@ -1748,43 +1748,69 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#0029a6', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #0029a6' }}
             date="16 september 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            iconStyle={{ background: '#0029a6', color: '#fff' }}
             icon={<Festival />}
           >
             <h3 className="vertical-timeline-element-title">Liquicity</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Vier daagjes vanaf 15 september zou Savannah bij mij komen slapen, omdat ze vrij was en ook mijn nieuwe kamer en omgeving wilde zien. Dus op de vrijdagavond komt Sav bij mij aan 
+              en gaan we snel naar bed, want de volgende dag: Liquicity :)). Ergens tijdens de midweek had Sav mij geappt dat ze tickets had gevonden voor het festival en we hadden z.s.m. besloten om 
+              deze dan ook te kopen. Jij lag toen naast mij en ik had je al eerder gevraagd of jij dan ook mee wilde gaan. En dus had ik toen ook snel een ticket voor jou gefixt, en was dus het plan om op 
+              de zaterdag een dagje naar Thuishaven te gaan :). We hadden alle drie ook wel een beetje outfit stress, maar uiteindelijk hebben we iets moeten kiezen. Rond half 11 kwam jij bij mij aan en zijn 
+              we met z'n drieën onszelf klaar gaan maken met alle glitter en glamour om er een beetje goed uit te zien. Het evenement startte om 13:00 en wij hadden het streven om er rond 14:30 te zijn. 
+              Het was voor jullie beide de eerste keer naar zo'n Drum and Bass festival en ik vond het wel nogal raar dat jullie er ook daadwerkelijk bij waren hahah.
             </p>
             <div className={styles.one_image}>
               <img src={"/RoaJuul/images/IMG-20230916-WA0028.jpg"} />
             </div>
+            <p>
+              We waren de oortjes vergeten, dus gingen we die halen maar ze waren echt best wel wat duurder dan gehoopt (oepsie). We kwamen best snel er ook achter dat er een gratis photobooth was, dus die 
+              hebben we ook nog goed benut nu het nog rustig was. Tijdens het festival heb ik jullie ook nog een beetje geprobeerd te laten 'skanken', maar zo'n succes was dat 
+              niet helemaal hahah. Ik vond het echt wel gezellig en ook leuk dat we gewoon steeds konden switchen tussen even dansen en even zitten.
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230917-WA0009.jpg"} />
+            </div>
+            <p>
+              We hebben wat patat gegeten en toen begon het langzamerhand ook steeds donkerder te worden. Er was ook een soort punt hogerop waar je uitzicht had over het hele terrein en daar 
+              zijn we ook vaker geweest. Tegen het einde van de avond vond jij het wel leuk dat we nog even met z'n tweeën daar naar boven gingen. Savannah had inmiddels al wel wat mensen gevonden 
+              waar ze zichzelf mee kon vermaken, dus dan hoefde ze niet te derde wielen hahah.
+            </p>
             <div className={styles.one_image}>
               <img src={"/RoaJuul/images/IMG-20230916-WA0023.jpg"} />
             </div>
             <div className={styles.one_image}>
               <img src={"/RoaJuul/images/IMG-20230916-WA0024.jpg"} />
             </div>
-            <div className={styles.one_image}>
-              <img src={"/RoaJuul/images/IMG-20230917-WA0009.jpg"} />
-            </div>
+            <p>
+              We zijn rond 22:45 teruggelopen naar het station, om daar rond half 1 's nachts weer in Delft aan te komen. 
+              Wij wilden terug gaan fietsen en Sav zou de bus nemen, maar het regende zo hard en we hadden geen jas mee dat ik vond dat de bus beter was. Jij was wel vastberaden om te gaan fietsen, maar 
+              ik vond eigenlijk dat je dat echt niet moest doen, want daar zou je echt ziek van worden en dat wil ik liever niet voor je natuurlijk. Dus hebben we toch nog snel gerend om de bus te halen en 
+              zijn we beide naar ons eigen huis gegaan. Ik vond het echt heel leuk dat jullie mee waren :)
+            </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#ff33b8', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #ff33b8' }}
             date="18 september 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            iconStyle={{ background: '#ff33b8', color: '#fff' }}
             icon={<Diversity3 />}
           >
             <h3 className="vertical-timeline-element-title">Ploegdate H29 x D11</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Tijdens de IRT waren er vele challenges waar je punten mee kon verdienen en een ploegdate was er 1 van. Julian uit mijn ploegje kwam er mee dat hij wel twee anderen 
+              van IO kent waar we met dat ploegje mee op date konden gaan. Hier kwam dan snel bij dat jij in hetzelfde ploegje zat, dus was het regelen van zo'n date wel makkelijk te doen. 
+              We kwamen uiteindelijk uit op 18 september, wat volgens mij misschien een dag of 2 na het besluit van de date was. We konden gezellig bij Anna Marijn thuis zitten en hebben met z'n 
+              allen pizza's gegeten. We zagen er beide ook leuk gekleed uit en de hele avond vond ik echt gezellig. We waren ook beide wel een beetje aangeschoten, maar dat was alleen maar leuk. 
+              Je bent nog bij me op schoot gaan zitten en na een tijdje zijn we ook samen naar bed gegaan. Was een leuke avond en ook een goeie leuke basis van de vriendschappen die we nu hebben 
+              op Proteus :)
             </p>
             <div className={styles.one_image}>
               <img src={"/RoaJuul/images/IMG-20230918-WA0034.jpg"} />
@@ -1793,16 +1819,19 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentStyle={{ background: '#ffc400', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #ffc400' }}
             date="29 september 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+            iconStyle={{ background: '#ffc400', color: '#fff' }}
             icon={<SettingsAccessibility />}
           >
-            <h3 className="vertical-timeline-element-title">Trampolineparkkk</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Trampolineparkk in Rijswijk</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              We hadden eerder in de maand ergens besloten dat het een goed idee was om eens of twee keer in de maand samen op date te gaan :). De ene keer regel ik alles en de andere 
+              keer jij, en de eerste keer was het mijn beurt. Ik had tijdens een van de borrels al een goeie input gekregen van een paar meiden op Proteus, maar deze date had ik wel helemaal 
+              zelf bedacht: naar een trampolinepark! Om 16:30 had ik geboekt en hebben we leuk een uurtje gesprongen. Er warenm echt alleen maar kinderen, maar dat maakte het ook wel weer 
+              grappig. We hebben trefbal gespeeld, touwtje gelopen en ook een parcours afgelegd. Ik vond het een leuke date :)
             </p>
           </VerticalTimelineElement>
 
@@ -1815,7 +1844,7 @@ const TimelinePage: React.FC = () => {
             icon={<Rowing />}
           >
             <h3 className="vertical-timeline-element-title">Inauguratie Proteus</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
               ondertekst
             </p>
