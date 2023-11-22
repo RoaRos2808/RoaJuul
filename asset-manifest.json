@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RoaJuul/static/css/main.411ffe06.css",
-    "main.js": "/RoaJuul/static/js/main.abe162d1.js",
+    "main.js": "/RoaJuul/static/js/main.717a6def.js",
     "static/js/787.19803e63.chunk.js": "/RoaJuul/static/js/787.19803e63.chunk.js",
     "static/media/bg_bggenerator_com3.png": "/RoaJuul/static/media/bg_bggenerator_com3.95618c8cb3331d9e377b.png",
     "static/media/bg_bggenerator_com2.png": "/RoaJuul/static/media/bg_bggenerator_com2.44db54a0bdd2247330c8.png",
@@ -35,11 +35,11 @@
     "static/media/18.jpeg": "/RoaJuul/static/media/18.a4dc703443c8b9b9af27.jpeg",
     "index.html": "/RoaJuul/index.html",
     "main.411ffe06.css.map": "/RoaJuul/static/css/main.411ffe06.css.map",
-    "main.abe162d1.js.map": "/RoaJuul/static/js/main.abe162d1.js.map",
+    "main.717a6def.js.map": "/RoaJuul/static/js/main.717a6def.js.map",
     "787.19803e63.chunk.js.map": "/RoaJuul/static/js/787.19803e63.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.411ffe06.css",
-    "static/js/main.abe162d1.js"
+    "static/js/main.717a6def.js"
   ]
 }
