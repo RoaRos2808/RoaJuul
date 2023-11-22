@@ -15,7 +15,7 @@ import CoffeeRoundedIcon from '@mui/icons-material/CoffeeRounded';
 import SportsBarIcon from '@mui/icons-material/SportsBar';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
-import { Abc, Apartment, BrunchDining, Cake, Celebration, Explore, FlightLand, Forest, Girl, GroupWork, LocalAirport, LocalBar, LocationCity, Luggage, Minimize, PersonPinCircle, PregnantWoman, Restaurant, Rowing, School } from '@mui/icons-material';
+import { Abc, Apartment, BeachAccess, BrunchDining, Cake, Celebration, Diversity3, Explore, Festival, FlightLand, Forest, Girl, GroupWork, Groups3, LocalAirport, LocalBar, LocationCity, Luggage, Minimize, Movie, PersonPinCircle, PregnantWoman, Restaurant, Rowing, School, SettingsAccessibility, Water } from '@mui/icons-material';
 
 // interface HomePageProps {
 //     path: string;
@@ -1595,7 +1595,7 @@ const TimelinePage: React.FC = () => {
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
               Na het KMT, zijn we beide eerst eventjes lekker naar beide ons eigen huis gegaan om ons te verfrissen. Rond 17:30 hadden we afgesproken 
-              bij Delft Campus, om ons te verkassen richting Leek. Op Rotterdam Centraal hebben we pasta gehaald bij Julia's, om daarna de lange zit naar 
+              bij Delft Campus, om ons te verkassen richting Leek. Op Rotterdam Centraal hebben we volgens mij wat eten gehaald, om daarna de lange zit naar 
               Groningen te overleven. Op station Groningen moesten we nog een tijdje wachten om uiteindelijk dan richting Leek te kunnen gaan. We wilden nog even langs 
               Simon en co, maar die reageerden niet dus stapten we maar op de bus. Hier kwamen nog iemand tegen van mijn middelbare, en uiteindelijk rond 20:30 komen we aan 
               in het chalet. Mijn moeder sliep in Groningen, dus konden wij lekker samen nog een avondje zijn (met Terry natuurlijk). 
@@ -1650,7 +1650,7 @@ const TimelinePage: React.FC = () => {
             <h3 className="vertical-timeline-element-title">Barbie film!</h3>
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              Voor mijn verjaardag had ik een 25 euro tegoedbon gekregen van jouw ouders. We hadden dus al het idee om naar de Barbie film te gaan en ik was misschien 
+              Voor mijn verjaardag had ik een 25 euro bioscoop-tegoedbon gekregen van jouw ouders. We hadden dus al het idee om naar de Barbie film te gaan en ik was misschien 
               wel meer excited dan jij hahah. We konden dus heel goed de bon gebruiken en we moesten natuurlijk wel in het roze! Dus hebben we beide ons meest roze kleding 
               uit de kast gepakt en hebben we de roze mascara van Els geleend om zo goed mogelijk in stijl heen te gaan. Jij hebt de leukste foto's hiervoor en ik heb deze volgens mij 
               niet, maar natuurlijk nog wel een fotootje gemaakt in de bioscoop :) 
@@ -1662,31 +1662,87 @@ const TimelinePage: React.FC = () => {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="8 september 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            contentStyle={{ background: '#35ab62', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #35ab62' }}
+            date="1 september 2022"
+            iconStyle={{ background: '#35ab62', color: '#fff' }}
+            icon={<Groups3 />}
           >
-            <h3 className="vertical-timeline-element-title">Middagje Scheveningen</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Morris ontmoeten</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Veel van je vriendinnen had ik nu al ontmoet, maar Morris was wel degene waarvan het best raar was dat ik haar nog nooit had gezien aangezien ze 
+              wel een van je beste vriendinnen is. Op 1 september kwam ze naar Delft en hadden we afgesproken om 's avonds nog een drankje ergens te doen. Om 21:00 
+              hadden we afgesproken bij Stadscafé BAR/BAAR, maar eenmaal aangekomen bleek het gewoon dicht te zijn. We moesten dus maar doorlopen naar het centrum. We 
+              zijn toen uiteindelijk bij Café de Oude Jan gaan zitten. Ik vond het echt heel gezellig, maar ook omdat Morris en ik jou van andere perspectieven kennen 
+              en dat maakt de gesprekken alleen maar leuker. Ook heb jij nog een BeReal gemaakt met ons 3, alleen ik durf die nu niet meer aan jou te vragen omdat ik je net 
+              verteld heb dat ik een geheim voor jou heb en dan is het wel iets te verdacht dat ik zo'n random vraag stel (stommm van mij haha). 
+              We hebben nog een rondje gelopen 's avonds en ook helemaal enthousiast naar zulke huizen gekeken die te koop 
+              stonden. Vond het een waardige avond om hier ook bij te zetten :)
             </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="14 september 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            contentStyle={{ background: '#40a9d6', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid #40a9d6' }}
+            date="3 september 2022"
+            iconStyle={{ background: '#40a9d6', color: '#fff' }}
+            icon={<Water />}
           >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            <h3 className="vertical-timeline-element-title">Aan de Schie</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
-              ondertekst
+              Ons leventje hier in Delft was dan nu net begonnen, dus konden we elkaar wat vaker zien dan we voorheen ooit 
+              konden. Dus hadden we een dagje besloten samen te gaan sporten en gewoon samen te zijn voor een heel dagje. 's Ochtends zijn we 
+              dan naar de Basic-Fit geweest en hebben we een alles-dagje gedaan hahah. Na het sporten zijn we direct naar de Schie gegaan om lekker aan 
+              het water te gaan lunchen en we kwamen hier Juli ook nog tegen.
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/bereal-2023-09-02-1200.jpeg"} />
+            </div>
+            <p>
+              We zijn daarna terug naar mijn huis gegaan om eventjes te douchen en 
+              ik heb echt geen idee meer wat we daarna gedaan hebben. We hebben 's avonds een lekker patatje met snackies gehaald en zijn weer aan de 
+              Schie gaan zitten, want dat was wel een top plekkie. Niet een hele bijzondere dag, maar toch wel een fijn begin dat we zo dichtbij elkaar wonen 
+              nu :)
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/bereal-2023-09-03-1200.jpeg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230903-WA0001.jpg"} />
+            </div>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#ffc038', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #ffc038' }}
+            date="8 september 2022"
+            iconStyle={{ background: '#ffc038', color: '#fff' }}
+            icon={<BeachAccess />}
+          >
+            <h3 className="vertical-timeline-element-title">Middagje Scheveningen</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
+            <p>
+              De tweede borrelavond was toch een van onze mindere avonden door mij. We werden de volgende ochtend wakker en hebben we even goed met elkaar gepraat. Jij wilde misschien eigenlijk liever alleen naar huis, 
+              maar toch hebben we besloten dat we er nog een leuk dagje van gingen maken. Ik ben ook echt heel blij dat we dat gedaan hadden, anders waren we het weekend misschien 
+              ook wel iets minder vrolijk geweest. Samen hadden we deze week al besloten dat we een dagje naar het strand zouden gaan, en we hadden toevallig op de vrijdag tijd om dit 
+              te doen. Om 13:00 ben ik nog even naar mijn huis gefietst om mijn zwemspullen te pakken, en rond 14:15 hebben we de tram genomen vanaf Delft station om richting Scheveningen 
+              te gaan. Ik wist voor dit jaar oprecht ook niet dat het zo vlakbij lag en dat Scheveningen überhaupt aan de zee lag hahah. Het weer was echt heerlijk, en na een klein stukje lopen hadden 
+              wij een plekje gevonden waar we ons kleedje neer hebben gelegd. We hadden wel veel mee, omdat we daarna direct door zouden gaan richting Bunnik. We zijn de zee in gegaan en hebben elkaar 
+              lekker geplaagd met het water splashen :). Ook hebben we gewoon beetje klef gedaan hahah, maar het was fijn om een dagje lekker in de zon samen te zijn. Toen we weer gingen liggen, hadden we 
+              door dat er wat jongere meiden bij ons in de buurt lagen en ze waren heel stereotypisch aan het praten. Ook hadden ze echt nieuwe Gen X-type namen haha, het was heel grappig om te luisteren 
+              naar wat de girlieees te zeggen hadden.
+            </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/bereal-2023-09-08-1200.jpeg"} />
+            </div>
+            <p>
+              We zijn tot een uurtje of 18 daar geweest en hebben daarna gezocht naar een goede plek om te eten. Volgens mij hebben we hier niks gevonden, en hebben we besloten om de trein te nemen 
+              en onderweg ergens wat mee te nemen. Op Den Haag Centraal hebben we toen een bakje pasta bij Julia's gehaald (denk ik). Ik vond het een fijn dagje samen en ik ben ook blij dat ik nog mee terug 
+              ben geweest naar Bunnik :), heb echt weer zin in het strand ooit (ik ben echt mijn mening een beetje gaan veranderen over het strand)
             </p>
           </VerticalTimelineElement>
 
@@ -1696,13 +1752,25 @@ const TimelinePage: React.FC = () => {
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             date="16 september 2022"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            icon={<Festival />}
           >
             <h3 className="vertical-timeline-element-title">Liquicity</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
               ondertekst
             </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230916-WA0028.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230916-WA0023.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230916-WA0024.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230917-WA0009.jpg"} />
+            </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
@@ -1711,13 +1779,16 @@ const TimelinePage: React.FC = () => {
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             date="18 september 2022"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            icon={<Diversity3 />}
           >
             <h3 className="vertical-timeline-element-title">Ploegdate H29 x D11</h3>
             <h4 className="vertical-timeline-element-subtitle">en temp</h4>
             <p>
               ondertekst
             </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20230918-WA0034.jpg"} />
+            </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
@@ -1726,7 +1797,7 @@ const TimelinePage: React.FC = () => {
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             date="29 september 2022"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            icon={<SettingsAccessibility />}
           >
             <h3 className="vertical-timeline-element-title">Trampolineparkkk</h3>
             <h4 className="vertical-timeline-element-subtitle">en temp</h4>
@@ -1741,7 +1812,7 @@ const TimelinePage: React.FC = () => {
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             date="6 oktober 2022"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            icon={<Rowing />}
           >
             <h3 className="vertical-timeline-element-title">Inauguratie Proteus</h3>
             <h4 className="vertical-timeline-element-subtitle">en temp</h4>
@@ -1754,30 +1825,18 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-            date="12 oktober 2022"
-            iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">Temp</h3>
-            <h4 className="vertical-timeline-element-subtitle">en temp</h4>
-            <p>
-              ondertekst
-            </p>
-          </VerticalTimelineElement>
-
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
             date="20 oktober 2022"
             iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-            icon={<FavoriteBorderIcon />}
+            icon={<Movie />}
           >
             <h3 className="vertical-timeline-element-title">Midsommar date</h3>
             <h4 className="vertical-timeline-element-subtitle">en temp</h4>
             <p>
               ondertekst
             </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/bereal-2023-10-20-1200.jpeg"} />
+            </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
@@ -1793,6 +1852,12 @@ const TimelinePage: React.FC = () => {
             <p>
               ondertekst
             </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Snapchat-646013159.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/bereal-2023-10-21-1200.jpeg"} />
+            </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
@@ -1807,11 +1872,23 @@ const TimelinePage: React.FC = () => {
             {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
             <p>
               Ik had deze al klaar staan zodat ik later een tekstje erbij kon zetten, 
-              maar laten we deze avond maar snel vergeten...
+              maar dit was toch een van onze mindere avonden. 
             </p>
             <p>
-              Wel hebben we nog leuke fotootjes:
+              Maar dat betekent natuurlijk niet dat we geen hele leuke nieuwe fotootjes hebben :)
             </p>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/Screenshot_20231119-090257_BeReal.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20231119-WA0011.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/IMG-20231119-WA0015.jpg"} />
+            </div>
+            <div className={styles.one_image}>
+              <img src={"/RoaJuul/images/20231118_232206.jpg"} />
+            </div>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
