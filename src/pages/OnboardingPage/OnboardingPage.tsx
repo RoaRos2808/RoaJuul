@@ -22,8 +22,7 @@ const OnboardingPage: React.FC<Props> = ({onChildEvent}) => {
     const newValue = event.target.value;
     setInputValue(newValue);
 
-    // Check if the input value is "hello" and emit custom event
-    if (newValue.toLowerCase() === "flirt") {
+    if (newValue.toLowerCase() === "welovebankjes") {
       const eventData = 'Data from child component';
       onChildEvent(eventData);
     }
@@ -45,7 +44,7 @@ const OnboardingPage: React.FC<Props> = ({onChildEvent}) => {
           </div>
           <Fade delay={3000} duration={500}>
             <input
-              type="text"
+              type="password"
               id="textInput"
               value={inputValue}
               onChange={handleInputChange}
