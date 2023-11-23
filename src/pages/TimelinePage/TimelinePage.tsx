@@ -1913,7 +1913,13 @@ const TimelinePage: React.FC = () => {
               Het einde van het eerste blok zat er nu ook aan te komen, wat betekende dat ik me weer ietsje meer begon te gaan stressen. Ik vind het fijn dat je nu ook een 
               beetje begrijpt hoe ik ben op zulke momenten, want ik ben bang dat ik het niet zo heel snel zou kunnen veranderen. Maar ik vond de avondjes samen wel heel fijn in een periode waar 
               ik normaliter mezelf gewoon afsloot van alles. Ik zeg alvast sorry voor de volgende tentamens hahah, maar misschien ga ik mezelf wat lakser opstellen zodat ik mijn brein toch nog 
-              leuke dingetjes toesta :)
+              leuke dingetjes toesta :). Daarnaast ben ik ook niet de beste student en ben ik ook heel vaak bezig geweest met het maken van deze app, omdat ik dat dan wel leuker vond om te doen hihi. Ook heb 
+              ik wel vaak gelogen dat ik ben gaan gamen ofzo, dat was in ieder geval een goede leugen waar jij niet veel vragen over verder stelde hahah. Ik heb ook momenten gehad dat ik WhatsApp open had staan om berichtjes terug te lezen
+              of foto's terug zocht en dat 
+              jij mij dan op dat moment een berichtje stuurde waardoor ik het direct las (oeps oeps oeps). Ik heb je ook heel casual gevraagd of jij je lijstje met leuke datums naar mij wilde sturen, zodat ik 
+              niks zou missen in deze lange lijst met verhaaltjes. Het is zelfs een keer voorgekomen dat ik bij je kwam zitten in de UB en dat ik mijn laptop opende en het gewoon vol op mijn scherm 
+              stond hahaha. Jij keek ook gewoon naar mijn scherm, maar ik denk oprecht dat je meer aan het focussen was op ons gesprek dan wat er op het scherm stond, dus heb ik echt heel veel 
+              geluk gehad hahah. Vond het in ieder geval een leuk iets om geheim van je te houden :)
             </p>
           </VerticalTimelineElement>
 
