@@ -15,7 +15,7 @@ import CoffeeRoundedIcon from '@mui/icons-material/CoffeeRounded';
 import SportsBarIcon from '@mui/icons-material/SportsBar';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
-import { Abc, Apartment, BeachAccess, BrunchDining, Cake, Celebration, Diversity3, Explore, Festival, FlightLand, Forest, Girl, GroupWork, Groups3, LocalAirport, LocalBar, LocationCity, Luggage, Minimize, Movie, PeopleAlt, PersonPinCircle, PregnantWoman, Restaurant, Rowing, School, SettingsAccessibility, Water } from '@mui/icons-material';
+import { Abc, Apartment, BeachAccess, BrunchDining, Cake, Celebration, Diversity3, Explore, Festival, FlightLand, Forest, Girl, GroupWork, Groups3, LocalAirport, LocalBar, LocationCity, Luggage, Minimize, Movie, PeopleAlt, PersonPinCircle, PregnantWoman, Restaurant, Rowing, School, SettingsAccessibility, SquareFoot, Water } from '@mui/icons-material';
 
 // interface HomePageProps {
 //     path: string;
@@ -1870,15 +1870,20 @@ const TimelinePage: React.FC = () => {
               je voor het andere idee gekozen. Toen we aankwamen in Groningen, moesten we eerst een hele route afleggen om de sleutels te krijgen van het huisje (wat achteraf nieteens nodig 
               was geweest). Onderweg naar het huisje hebben we wat boodschapjes gedaan, en toen werd mij al wel een beetje duidelijk wat we gingen doen. Ik wist alleen nog niet welke film 
               je in gedachten had, maar ik dacht op een of andere manier dat je iets van horror wilde kijken. Toen we eindelijk het huisje binnen waren hebben we eerst een heerlijke verse pizza 
-              gegeten en daarna de TV klaargezet om een film op te zetten. Het huisje had alleen nog geen Wi-Fi, maar gelukkig kon jij op je 4G en had je nog genoeg over dat de date in ieder geval wel 
+              gegeten en daarna de TV klaargezet om een film op te zetten. Ook had je chocolademelk gekocht om cozy bij de film op te drinken.
+              Het huisje had alleen nog geen Wi-Fi, maar gelukkig kon jij op je 4G en had je nog genoeg over dat de date in ieder geval wel 
               door kon gaan hahah. Toen startte jij Netflix op en zag ik dat je Midsommar erbij pakte. Ik vond dit natuurlijk een goed idee en zo zijn we samen gaan liggen en de film gaan kijken. 
+              De popcorn was inmiddels ook geopend en daar hebben we lekker van gesmikkeld.
               Ik denk niet dat jij de film nou zo heel denderend vond, maar het sfeertje dat wij gecreëerd hadden was wel heel leuk :)
             </p>
             <div className={styles.one_image}>
               <img src={"/RoaJuul/images/bereal-2023-10-20-1200.jpeg"} />
             </div>
             <p>
-              Na de film zijn we lekker naar boven gegaan en gaan slapen. 
+              Na de film zijn we lekker naar boven gegaan en gaan slapen. Mijn moeder en Sav waren in Frankrijk, dus hadden we niet alleen die ene avond de tijd om in het huisje te 
+              zijn, maar het hele weekend. We hebben zaterdagochtend lekker rustig aan gedaan en zijn daarna de stad in gegaan. Van 11:15 tot 15:15 zijn we lekker gaan shoppen en waren we voornamelijk 
+              op zoek naar leuke gala kleding. Hierin waren we niet geslaagd, maar we hebben wel nog wat heerlijke kibbeling gegeten en een leuk groen shirt voor mij gekocht. 's Avonds hebben we weer ons
+              lekkere ravioli recept gemaakt en gewoon gechilld op de bank.
             </p>
             <div className={styles.one_image}>
               <img src={"/RoaJuul/images/Snapchat-646013159.jpg"} />
@@ -1886,6 +1891,30 @@ const TimelinePage: React.FC = () => {
             <div className={styles.one_image}>
               <img src={"/RoaJuul/images/bereal-2023-10-21-1200.jpeg"} />
             </div>
+            <p>
+              In de avond hadden we de verjaardag van Sander te vieren en hier heb jij Simon nu ook ontmoet (en Anne nu ook soortvan echt hahah). We zijn rond half 1 weer terug aangekomen bij het 
+              huisje en zijn hier weer samen in bed gedommeld. De volgende ochtend hebben we weer uitgeslapen en zijn we naar de Bakker Bart 
+              gegaan om een lekker ontbijtje te halen. Na wat voedsel voor onderweg te hebben gehaald, stapten we om 13:00 we weer op de trein terug naar Delft om zo ons leuke weekendje 
+              af te ronden met wat kruiswoordpuzzels.
+            </p>
+          </VerticalTimelineElement>
+
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: '#0fa87a', color: '#fff' }}
+            contentArrowStyle={{ borderRight: '7px solid  #0fa87a' }}
+            date="23 oktober - 8 november 2022"
+            iconStyle={{ background: '#0fa87a', color: '#fff' }}
+            icon={<SquareFoot />}
+          >
+            <h3 className="vertical-timeline-element-title">De tentamenweken</h3>
+            {/* <h4 className="vertical-timeline-element-subtitle">en temp</h4> */}
+            <p>
+              Het einde van het eerste blok zat er nu ook aan te komen, wat betekende dat ik me weer ietsje meer begon te gaan stressen. Ik vind het fijn dat je nu ook een 
+              beetje begrijpt hoe ik ben op zulke momenten, want ik ben bang dat ik het niet zo heel snel zou kunnen veranderen. Maar ik vond de avondjes samen wel heel fijn in een periode waar 
+              ik normaliter mezelf gewoon afsloot van alles. Ik zeg alvast sorry voor de volgende tentamens hahah, maar misschien ga ik mezelf wat lakser opstellen zodat ik mijn brein toch nog 
+              leuke dingetjes toesta :)
+            </p>
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
