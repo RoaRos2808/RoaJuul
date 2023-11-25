@@ -279,7 +279,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#8578ff', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #8578ff' }}
-            date="2 januari 2022"
+            date="2 januari 2023"
             iconStyle={{ background: '#8578ff', color: '#fff' }}
             icon={<MessageIcon />}
           >
@@ -304,7 +304,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ff3860', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ff3860' }}
-            date="11 januari 2022"
+            date="11 januari 2023"
             iconStyle={{ background: '#ff3860', color: '#fff' }}
             icon={<MessageOutlinedIcon />}
           >
@@ -335,7 +335,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ff8138', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ff8138' }}
-            date="15 januari 2022"
+            date="15 januari 2023"
             iconStyle={{ background: '#ff8138', color: '#fff' }}
             icon={<CoffeeOutlinedIcon />}
           >
@@ -370,7 +370,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ff3526', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ff3526' }}
-            date="16 januari 2022"
+            date="16 januari 2023"
             iconStyle={{ background: '#ff3526', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
@@ -397,7 +397,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ff5eb7', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ff5eb7' }}
-            date="21 - 22 januari 2022"
+            date="21 - 22 januari 2023"
             iconStyle={{ background: '#ff5eb7', color: '#fff' }}
             icon={<CoffeeRoundedIcon />}
           >
@@ -441,7 +441,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#36b38d', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #36b38d' }}
-            date="28 - 29 januari 2022"
+            date="28 - 29 januari 2023"
             iconStyle={{ background: '#36b38d', color: '#fff' }}
             icon={<CoffeeIcon />}
           >
@@ -482,7 +482,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#2ba7bd', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #2ba7bd' }}
-            date="11 - 12 februari 2022"
+            date="11 - 12 februari 2023"
             iconStyle={{ background: '#2ba7bd', color: '#fff' }}
             icon={<SportsBarIcon />}
           >
@@ -555,7 +555,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ff0084', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ff0084' }}
-            date="13 - 14 februari 2022"
+            date="13 - 14 februari 2023"
             iconStyle={{ background: '#ff0084', color: '#fff' }}
             icon={<FavoriteIcon />}
           >
@@ -610,7 +610,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ff5e94', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ff5e94' }}
-            date="16 februari 2022"
+            date="16 februari 2023"
             iconStyle={{ background: '#ff5e94', color: '#fff' }}
             icon={<FavoriteBorderRoundedIcon />}
           >
@@ -631,7 +631,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#51508a', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #51508a' }}
-            date="23 februari 2022"
+            date="23 februari 2023"
             iconStyle={{ background: '#51508a', color: '#fff' }}
             icon={<Minimize />}
           >
@@ -652,7 +652,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#3abd5f', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #3abd5f' }}
-            date="27 februari 2022"
+            date="27 februari 2023"
             iconStyle={{ background: '#3abd5f', color: '#fff' }}
             icon={<Cake />}
           >
@@ -670,7 +670,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#eb9249', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #eb9249' }}
-            date="9 maart 2022"
+            date="9 maart 2023"
             iconStyle={{ background: '#eb9249', color: '#fff' }}
             icon={<Restaurant />}
           >
@@ -690,7 +690,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ff3d3d', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ff3d3d' }}
-            date="11 maart 2022"
+            date="11 maart 2023"
             iconStyle={{ background: '#ff3d3d', color: '#fff' }}
             icon={<FavoriteBorderIcon />}
           >
@@ -714,7 +714,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#5c69ff', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #5c69ff' }}
-            date="12 maart 2022"
+            date="12 maart 2023"
             iconStyle={{ background: '#5c69ff', color: '#fff' }}
             icon={<LocationCity />}
           >
@@ -750,7 +750,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#338dc4', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #338dc4' }}
-            date="18 maart 2022"
+            date="18 maart 2023"
             iconStyle={{ background: '#338dc4', color: '#fff' }}
             icon={<BrunchDining />}
           >
@@ -791,7 +791,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#426cc7', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #426cc7' }}
-            date="19 maart 2022"
+            date="19 maart 2023"
             iconStyle={{ background: '#426cc7', color: '#fff' }}
             icon={<GroupWork />}
           >
@@ -837,7 +837,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#a86cd4', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #a86cd4' }}
-            date="24 - 26 maart 2022"
+            date="24 - 26 maart 2023"
             iconStyle={{ background: '#a86cd4', color: '#fff' }}
             icon={<Explore />}
           >
@@ -942,7 +942,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#fc287a', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #fc287a' }}
-            date="27 maart 2022"
+            date="27 maart 2023"
             iconStyle={{ background: '#fc287a', color: '#fff' }}
             icon={<PregnantWoman />}
           >
@@ -970,7 +970,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ed9940', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ed9940' }}
-            date="31 maart - 2 april 2022"
+            date="31 maart - 2 april 2023"
             iconStyle={{ background: '#ed9940', color: '#fff' }}
             icon={<LocalBar />}
           >
@@ -1053,7 +1053,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#2da852', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #2da852' }}
-            date="7 - 9 april 2022"
+            date="7 - 9 april 2023"
             iconStyle={{ background: '#2da852', color: '#fff' }}
             icon={<Luggage />}
           >
@@ -1162,7 +1162,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#3189f5', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #3189f5' }}
-            date="27 april 2022"
+            date="27 april 2023"
             iconStyle={{ background: '#3189f5', color: '#fff' }}
             icon={<School />}
           >
@@ -1195,7 +1195,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#e87838', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #e87838' }}
-            date="5 mei 2022"
+            date="5 mei 2023"
             iconStyle={{ background: '#e87838', color: '#fff' }}
             icon={<LocalAirport />}
           >
@@ -1222,7 +1222,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#32a88b', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #32a88b' }}
-            date="2 - 3 augustus 2022"
+            date="2 - 3 augustus 2023"
             iconStyle={{ background: '#32a88b', color: '#fff' }}
             icon={<FlightLand />}
           >
@@ -1303,7 +1303,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#248ad4', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid #248ad4' }}
-            date="4 - 5 augustus 2022"
+            date="4 - 5 augustus 2023"
             iconStyle={{ background: '#248ad4', color: '#fff' }}
             icon={<Apartment />}
           >
@@ -1348,7 +1348,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#71bf0b', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #71bf0b' }}
-            date="6 - 8 augustus 2022"
+            date="6 - 8 augustus 2023"
             iconStyle={{ background: '#71bf0b', color: '#fff' }}
             icon={<PersonPinCircle />}
           >
@@ -1397,7 +1397,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#088c11', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #088c11' }}
-            date="19 - 22 augustus 2022"
+            date="19 - 22 augustus 2023"
             iconStyle={{ background: '#088c11', color: '#fff' }}
             icon={<Forest />}
           >
@@ -1569,7 +1569,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#0d6cb5', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #0d6cb5' }}
-            date="23 - 26 augustus 2022"
+            date="23 - 26 augustus 2023"
             iconStyle={{ background: '#0d6cb5', color: '#fff' }}
             icon={<Rowing />}
           >
@@ -1587,7 +1587,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ff7700', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ff7700' }}
-            date="27 augustus 2022"
+            date="27 augustus 2023"
             iconStyle={{ background: '#ff7700', color: '#fff' }}
             icon={<Celebration />}
           >
@@ -1621,7 +1621,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#f00010', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #f00010' }}
-            date="28 augustus 2022"
+            date="28 augustus 2023"
             iconStyle={{ background: '#f00010', color: '#fff' }}
             icon={<Cake />}
           >
@@ -1643,7 +1643,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ff6efd', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ff6efd' }}
-            date="29 augustus 2022"
+            date="29 augustus 2023"
             iconStyle={{ background: '#ff6efd', color: '#fff' }}
             icon={<Girl />}
           >
@@ -1664,7 +1664,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#35ab62', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #35ab62' }}
-            date="1 september 2022"
+            date="1 september 2023"
             iconStyle={{ background: '#35ab62', color: '#fff' }}
             icon={<Groups3 />}
           >
@@ -1686,7 +1686,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#40a9d6', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid #40a9d6' }}
-            date="3 september 2022"
+            date="3 september 2023"
             iconStyle={{ background: '#40a9d6', color: '#fff' }}
             icon={<Water />}
           >
@@ -1719,7 +1719,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ffc038', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ffc038' }}
-            date="8 september 2022"
+            date="8 september 2023"
             iconStyle={{ background: '#ffc038', color: '#fff' }}
             icon={<BeachAccess />}
           >
@@ -1750,7 +1750,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#0029a6', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #0029a6' }}
-            date="16 september 2022"
+            date="16 september 2023"
             iconStyle={{ background: '#0029a6', color: '#fff' }}
             icon={<Festival />}
           >
@@ -1798,7 +1798,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ff33b8', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ff33b8' }}
-            date="18 september 2022"
+            date="18 september 2023"
             iconStyle={{ background: '#ff33b8', color: '#fff' }}
             icon={<Diversity3 />}
           >
@@ -1821,7 +1821,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#d49100', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #d49100' }}
-            date="29 september 2022"
+            date="29 september 2023"
             iconStyle={{ background: '#d49100', color: '#fff' }}
             icon={<SettingsAccessibility />}
           >
@@ -1839,7 +1839,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#0088ff', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #0088ff' }}
-            date="6 - 8 oktober 2022"
+            date="6 - 8 oktober 2023"
             iconStyle={{ background: '#0088ff', color: '#fff' }}
             icon={<Rowing />}
           >
@@ -1857,7 +1857,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ff4d00', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ff4d00' }}
-            date="20 oktober 2022"
+            date="20 oktober 2023"
             iconStyle={{ background: '#ff4d00', color: '#fff' }}
             icon={<Movie />}
           >
@@ -1903,7 +1903,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#0fa87a', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #0fa87a' }}
-            date="23 oktober - 8 november 2022"
+            date="23 oktober - 8 november 2023"
             iconStyle={{ background: '#0fa87a', color: '#fff' }}
             icon={<SquareFoot />}
           >
@@ -1927,7 +1927,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ae00ff', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ae00ff' }}
-            date="18 november 2022"
+            date="18 november 2023"
             iconStyle={{ background: '#ae00ff', color: '#fff' }}
             icon={<NightlifeIcon />}
           >
@@ -1958,7 +1958,7 @@ const TimelinePage: React.FC = () => {
             className="vertical-timeline-element--work"
             contentStyle={{ background: '#ff006f', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid  #ff006f' }}
-            date="26 november 2022"
+            date="26 november 2023"
             iconStyle={{ background: '#ff006f', color: '#fff' }}
             icon={<FavoriteIcon />}
           >
